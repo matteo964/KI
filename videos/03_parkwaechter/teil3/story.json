@@ -1,0 +1,414 @@
+{
+ "title": "Der Parkwächter – Teil 3",
+ "series": "../serie.json",
+ "shots": [
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Ramon. Was willst du hier?",
+   "cast": [
+    "VATER",
+    "RAMON"
+   ],
+   "camera": "two-shot",
+   "action": "the father stepping in front of Leon",
+   "motion": "he shields Leon"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "RAMON",
+   "text": "Dass die Wahrheit bleibt, wo sie hingehört. Unter der Erde.",
+   "cast": [
+    "RAMON"
+   ],
+   "camera": "close-up",
+   "action": "Ramon smiling, adjusting his rings",
+   "motion": "he twists a ring on his finger"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "RAMON",
+   "text": "Der Alte redet zu viel, Richard.",
+   "cast": [
+    "RAMON",
+    "ERWIN"
+   ],
+   "camera": "medium shot",
+   "action": "Ramon walking slowly around Erwin",
+   "motion": "he circles Erwin"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "ERWIN",
+   "text": "Ich hab zwanzig Jahre geschwiegen. Nicht für dich.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin not moving",
+   "motion": "he stares straight ahead",
+   "tag": "[calm]"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "RAMON",
+   "text": "Meine Jungs regeln das.",
+   "cast": [
+    "RAMON"
+   ],
+   "camera": "close-up",
+   "action": "Ramon snapping his fingers",
+   "motion": "he snaps his fingers"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "BODO",
+   "text": "Deine Jungs sind gerade gegangen.",
+   "cast": [
+    "BODO"
+   ],
+   "camera": "low-angle medium shot",
+   "action": "Bodo appearing behind Ramon, the two thugs lying on the floor in the hallway",
+   "motion": "Bodo cracks his knuckles"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "RAMON",
+   "text": "Bodo? Du arbeitest für die von Trüffels!",
+   "cast": [
+    "RAMON"
+   ],
+   "camera": "close-up",
+   "action": "Ramon turning around, surprised",
+   "motion": "he spins around"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "BODO",
+   "text": "Ich arbeite für den Mann, der meine Mutter gerettet hat.",
+   "cast": [
+    "BODO",
+    "ERWIN"
+   ],
+   "camera": "two-shot",
+   "action": "Bodo standing next to Erwin protectively",
+   "motion": "he steps to Erwin's side"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "RAMON",
+   "text": "Ihr habt keine Beweise. Nichts.",
+   "cast": [
+    "RAMON"
+   ],
+   "camera": "close-up",
+   "action": "Ramon laughing",
+   "motion": "he laughs coldly"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "ERWIN",
+   "text": "Doch. Den Lieferschein vom Beton. Mit deiner Unterschrift.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up on hands",
+   "action": "Erwin pulling an old yellowed delivery note out of his uniform jacket",
+   "motion": "he unfolds the old paper"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "RAMON",
+   "text": "Den hättest du längst benutzen können.",
+   "cast": [
+    "RAMON"
+   ],
+   "camera": "close-up",
+   "action": "Ramon's smile fading",
+   "motion": "his smile freezes"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "ERWIN",
+   "text": "Dann wäre mein Sohn auch ins Gefängnis gegangen.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin looking at Richard",
+   "motion": "he looks at his son",
+   "tag": "[softly]"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Du… hast mich die ganze Zeit beschützt?",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "close-up",
+   "action": "the father realizing, eyes filling with tears",
+   "motion": "his eyes fill with tears"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "ERWIN",
+   "text": "Dafür sind Väter da.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin with a small warm smile",
+   "motion": "a small smile",
+   "tag": "[softly]"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "RAMON",
+   "text": "Ohne Richard ist der Zettel wertlos. Und Richard schweigt. Wie immer.",
+   "cast": [
+    "RAMON",
+    "VATER"
+   ],
+   "camera": "two-shot",
+   "action": "Ramon putting a hand on the father's shoulder",
+   "motion": "he grips the shoulder"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Nein. Diesmal nicht.",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "close-up",
+   "action": "the father removing Ramon's hand from his shoulder",
+   "motion": "he pushes the hand away"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Ich hab den billigen Beton bestellt. Auf deinen Rat.",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "medium shot",
+   "action": "the father facing Ramon, standing tall",
+   "motion": "he stands up straight"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "LEON",
+   "text": "Und jetzt weiß es das ganze Internet.",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "close-up",
+   "action": "Leon holding up his phone, a LIVE icon and viewer counter on screen",
+   "motion": "he turns the phone around"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "RAMON",
+   "text": "Was?!",
+   "cast": [
+    "RAMON"
+   ],
+   "camera": "close-up",
+   "action": "Ramon shocked",
+   "motion": "his eyes go wide"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "LEON",
+   "text": "Ich bin live. Dreihunderttausend Zuschauer.",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "close-up",
+   "action": "Leon calm and serious",
+   "motion": "he holds the phone steady"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "RAMON",
+   "text": "Gib mir das Handy!",
+   "cast": [
+    "RAMON",
+    "LEON"
+   ],
+   "camera": "medium shot",
+   "action": "Ramon lunging at Leon",
+   "motion": "he lunges forward"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "BODO",
+   "text": "Keinen Schritt weiter.",
+   "cast": [
+    "BODO",
+    "RAMON"
+   ],
+   "camera": "two-shot",
+   "action": "Bodo stopping Ramon with one hand on his chest",
+   "motion": "Ramon bounces off Bodo's hand"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "KOMMISSARIN",
+   "text": "Polizei. Herr Chili, Herr von Trüffel. Mitkommen.",
+   "cast": [
+    "KOMMISSARIN"
+   ],
+   "camera": "wide shot",
+   "action": "the lemon police officer entering with officers, blue lights through the windows",
+   "motion": "blue lights flash, officers rush in"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "RAMON",
+   "text": "Das wirst du bereuen, Kartoffel!",
+   "cast": [
+    "RAMON"
+   ],
+   "camera": "close-up",
+   "action": "Ramon in handcuffs, his forehead display dropping",
+   "motion": "his forehead number crashes down",
+   "displays": {
+    "RAMON": "0 €"
+   }
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "ERWIN",
+   "text": "Das haben schon ganz andere gesagt.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin calm",
+   "motion": "he puts his cap back on",
+   "tag": "[calm]"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Vater… es tut mir leid.",
+   "cast": [
+    "VATER",
+    "ERWIN"
+   ],
+   "camera": "two-shot",
+   "action": "the father in handcuffs stopping in front of Erwin",
+   "motion": "he stops and looks at Erwin"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "ERWIN",
+   "text": "Ich weiß. Ich wusste, dass du zurückkommst.",
+   "cast": [
+    "ERWIN",
+    "VATER"
+   ],
+   "camera": "close-up",
+   "action": "Erwin touching his son's face",
+   "motion": "he touches his son's cheek",
+   "tag": "[softly]"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Pass auf ihn auf, Leon.",
+   "cast": [
+    "VATER",
+    "LEON"
+   ],
+   "camera": "medium shot",
+   "action": "the father being led out, looking back at Leon",
+   "motion": "he looks back over his shoulder"
+  },
+  {
+   "loc": "GARAGE_TAG",
+   "speaker": "LEON",
+   "text": "Hey! Wegfahren.",
+   "cast": [
+    "LEON",
+    "FREMDER"
+   ],
+   "camera": "wide shot",
+   "action": "weeks later, Leon wearing a parking attendant vest next to Erwin, a rich avocado guy parking a sports car across the wheelchair spots",
+   "motion": "Leon steps in front of the car"
+  },
+  {
+   "loc": "GARAGE_TAG",
+   "speaker": "FREMDER",
+   "text": "Weißt du, wer ich bin?",
+   "cast": [
+    "FREMDER"
+   ],
+   "camera": "close-up",
+   "action": "the avocado guy smirking",
+   "motion": "he lowers his sunglasses"
+  },
+  {
+   "loc": "GARAGE_TAG",
+   "speaker": "LEON",
+   "text": "Einer, der falsch parkt.",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "close-up",
+   "action": "Leon calm, exactly like his grandfather",
+   "motion": "he points at the blue sign"
+  },
+  {
+   "loc": "GARAGE_TAG",
+   "speaker": "ERWIN",
+   "text": "Der lernt schnell.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin smiling proudly in his booth",
+   "motion": "he smiles and sips coffee",
+   "tag": "[softly]"
+  },
+  {
+   "loc": "GARAGE_TAG",
+   "speaker": "LEON",
+   "text": "Opa, dir gehört der Boden. Warum nur dreihundertzwölf Euro?",
+   "cast": [
+    "LEON",
+    "ERWIN"
+   ],
+   "camera": "two-shot",
+   "action": "Leon leaning on the booth",
+   "motion": "he looks at Erwin's forehead"
+  },
+  {
+   "loc": "GARAGE_TAG",
+   "speaker": "ERWIN",
+   "text": "Die Miete geht an die Familien von damals.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin looking at a wall with photos of families",
+   "motion": "he looks at the photos",
+   "tag": "[softly]"
+  },
+  {
+   "loc": "GARAGE_TAG",
+   "speaker": "ERWIN",
+   "text": "Reich ist man nicht durch das, was auf der Stirn steht, Junge.",
+   "cast": [
+    "ERWIN",
+    "LEON"
+   ],
+   "camera": "slow push-in two-shot",
+   "action": "Erwin putting his cap on Leon's head",
+   "motion": "he puts his cap on Leon",
+   "tag": "[softly]"
+  }
+ ]
+}

@@ -235,10 +235,14 @@ def missing_words(text, heard):
     heard = heard.lower()
     for k, v in abbr.items():
         heard = heard.replace(k, v)
+    heard = re.sub(r"-(?=\d)", " minus ", heard)
     h = words(heard)
+    joined = "".join(h)
     bad = []
     for w in words(text):
         if len(w) < 4 or (any(r in w for r in NUM_ROOTS) and re.search(r"\d", heard)):
+            continue
+        if w in joined:  # z. B. „fertigmachen“ vs. „fertig machen“
             continue
         if not h or max(difflib.SequenceMatcher(None, w, x).ratio() for x in h) < 0.75:
             bad.append(w)

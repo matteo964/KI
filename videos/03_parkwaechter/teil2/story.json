@@ -1,0 +1,433 @@
+{
+ "title": "Der Parkwächter – Teil 2",
+ "series": "../serie.json",
+ "shots": [
+  {
+   "loc": "GARAGE",
+   "speaker": "LEON",
+   "text": "Da ist er, Papa. Mach ihn fertig.",
+   "cast": [
+    "LEON",
+    "VATER",
+    "ERWIN"
+   ],
+   "camera": "wide shot",
+   "action": "Leon and his father walking toward Erwin's booth in the garage at night",
+   "motion": "they stride in, Leon points at Erwin"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "ERWIN",
+   "text": "Hallo, Richard.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin stepping out of the booth, calm",
+   "motion": "he takes off his cap slowly",
+   "tag": "[calm]"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "LEON",
+   "text": "Woher kennt der deinen Vornamen?",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "close-up",
+   "action": "Leon looking between the two, confused",
+   "motion": "he looks back and forth"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "VATER",
+   "text": "Leon. Geh zum Auto.",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "close-up",
+   "action": "the father staring only at Erwin, jaw tight",
+   "motion": "he does not look at Leon"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "LEON",
+   "text": "Du wolltest ihn doch fertigmachen!",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "medium shot",
+   "action": "Leon protesting",
+   "motion": "he throws up his hands"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "VATER",
+   "text": "Zum Auto. Sofort!",
+   "cast": [
+    "VATER",
+    "LEON"
+   ],
+   "camera": "two-shot",
+   "action": "the father grabbing Leon by the arm and pushing him away",
+   "motion": "he pushes Leon toward the car"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "ERWIN",
+   "text": "Zwanzig Jahre. Und dann schickst du mir Bodo.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin, sad but calm",
+   "motion": "he shakes his head slightly",
+   "tag": "[softly]"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "VATER",
+   "text": "Du hättest nicht zurückkommen sollen.",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "close-up",
+   "action": "the father, cold, but his eyes wet",
+   "motion": "his voice is cold but his eyes shine"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "ERWIN",
+   "text": "Ich war nie weg. Jeden Tag hier unten. Unter deinem Gebäude.",
+   "cast": [
+    "ERWIN",
+    "VATER"
+   ],
+   "camera": "two-shot",
+   "action": "the two facing each other under the neon light",
+   "motion": "slow orbit around them",
+   "tag": "[calm]"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "VATER",
+   "text": "Kein Wort zu meinem Sohn. Hast du verstanden?",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "close-up",
+   "action": "the father pointing a finger at Erwin",
+   "motion": "he points sharply"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "ERWIN",
+   "text": "Du konntest schon immer gut Dinge vergraben.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin looking at the father's finger, unimpressed",
+   "motion": "he looks at the finger, then into his eyes",
+   "tag": "[calm]"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "LEON",
+   "text": "„Erwin und Richard Knolle. Kartoffelacker.“",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "close-up",
+   "action": "Leon secretly searching his father's desk drawer at night, reading the back of an old photo",
+   "motion": "he turns the photo over and reads"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "LEON",
+   "text": "Knolle? Wir heißen doch von Trüffel…",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "close-up",
+   "action": "Leon staring at the photo of the potato man and the little truffle boy",
+   "motion": "he looks at the photo, confused"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Ramon. Der Alte ist wieder da.",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "medium shot",
+   "action": "the father on the phone, throwing old documents into the fireplace",
+   "motion": "papers curl in the flames"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "RAMON",
+   "text": "Und der Junge?",
+   "cast": [
+    "RAMON"
+   ],
+   "camera": "close-up",
+   "action": "the chili villain on the phone in a dark car, smiling",
+   "motion": "he smiles into the phone"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Der Junge stellt Fragen.",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "close-up",
+   "action": "the father looking at the door nervously",
+   "motion": "he glances at the door"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "RAMON",
+   "text": "Dann sorg dafür, dass er keine Antworten bekommt.",
+   "cast": [
+    "RAMON"
+   ],
+   "camera": "extreme close-up",
+   "action": "Ramon's cold smile in the dark",
+   "motion": "his smile disappears"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "LEON",
+   "text": "Du bist auf einem alten Foto mit meinem Vater. Wer bist du?",
+   "cast": [
+    "LEON",
+    "ERWIN"
+   ],
+   "camera": "two-shot",
+   "action": "Leon holding the old photo in front of Erwin at the booth",
+   "motion": "he holds up the photo"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "ERWIN",
+   "text": "Frag ihn.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin looking at the photo, a tiny smile",
+   "motion": "he looks at the photo for a long time",
+   "tag": "[softly]"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "LEON",
+   "text": "Ich frag aber dich.",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "close-up",
+   "action": "Leon serious for the first time",
+   "motion": "he steps closer"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "ERWIN",
+   "text": "Ich hab deinem Vater hier das Laufen beigebracht. Auf einem Kartoffelacker.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "medium shot",
+   "action": "Erwin touching the concrete pillar",
+   "motion": "he puts his hand on the concrete",
+   "tag": "[softly]"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "LEON",
+   "text": "Hier? Das ist ein Parkhaus.",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "close-up",
+   "action": "Leon looking around the garage",
+   "motion": "he looks around"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "ERWIN",
+   "text": "Jetzt. Der Boden gehört immer noch mir.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin calm",
+   "motion": "he looks down at the floor",
+   "tag": "[calm]"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "LEON",
+   "text": "Papa. Ist das dein Vater?",
+   "cast": [
+    "LEON",
+    "VATER"
+   ],
+   "camera": "medium two-shot",
+   "action": "Leon holding a half-burnt newspaper from the fireplace with the headline HAUSEINSTURZ, the father turning around",
+   "motion": "he holds up the burnt paper"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Leg das weg.",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "close-up",
+   "action": "the father, pale",
+   "motion": "he reaches out"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "LEON",
+   "text": "Du hast mir gesagt, Opa ist tot!",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "close-up",
+   "action": "Leon shouting, tears in his eyes",
+   "motion": "his voice breaks"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Für mich war er das.",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "close-up",
+   "action": "the father turning away to the fire",
+   "motion": "he turns away"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "LEON",
+   "text": "Weil er nur eine Kartoffel ist?",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "medium shot",
+   "action": "Leon stepping toward his father",
+   "motion": "he steps forward"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Weil ich kein Kartoffelbauer sein wollte!",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "low-angle close-up",
+   "action": "the father exploding, slamming his fist on the desk",
+   "motion": "he slams the desk"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "ERWIN",
+   "text": "Trüffel oder Kartoffel, Richard. Wir kommen alle aus derselben Erde.",
+   "cast": [
+    "ERWIN",
+    "VATER",
+    "LEON"
+   ],
+   "camera": "wide shot",
+   "action": "Erwin standing in the doorway in his attendant uniform, rain on his shoulders",
+   "motion": "he steps into the warm light",
+   "tag": "[softly]"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "LEON",
+   "text": "Und die neun Jahre Gefängnis?",
+   "cast": [
+    "LEON",
+    "ERWIN"
+   ],
+   "camera": "two-shot",
+   "action": "Leon looking at Erwin",
+   "motion": "he looks at his grandfather"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "ERWIN",
+   "text": "Das Haus, das damals eingestürzt ist… hab nicht ich gebaut.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin looking at the father",
+   "motion": "he slowly turns his eyes to Richard",
+   "tag": "[calm]"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "LEON",
+   "text": "Papa…?",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "close-up",
+   "action": "Leon turning to his father in shock",
+   "motion": "he turns slowly"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Ich war jung. Und Ramon hat gesagt, billiger Beton reicht.",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "close-up",
+   "action": "the father collapsing into his chair",
+   "motion": "he sinks into the chair"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "ERWIN",
+   "text": "Und ich hab gesagt, ich war's. Damit mein Sohn eine Zukunft hat.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin with wet eyes, still calm",
+   "motion": "a tear runs down his potato cheek",
+   "tag": "[softly]"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "LEON",
+   "text": "Du warst neun Jahre im Gefängnis… für ihn?",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "close-up",
+   "action": "Leon in tears",
+   "motion": "his lips tremble"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "RAMON",
+   "text": "Wie rührend. Die ganze Familie Knolle an einem Ort.",
+   "cast": [
+    "RAMON"
+   ],
+   "camera": "low-angle wide shot",
+   "action": "the chili villain in a white suit standing in the doorway behind them, two thugs behind him, car headlights outside",
+   "motion": "they all turn, headlights flood the room"
+  }
+ ],
+ "end_text": "Teil 3…"
+}

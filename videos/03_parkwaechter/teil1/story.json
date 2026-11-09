@@ -1,0 +1,422 @@
+{
+ "title": "Der Parkwächter – Teil 1",
+ "series": "../serie.json",
+ "shots": [
+  {
+   "loc": "GARAGE",
+   "speaker": "ERWIN",
+   "text": "Wegfahren.",
+   "cast": [
+    "ERWIN",
+    "LEON"
+   ],
+   "camera": "low-angle wide shot",
+   "action": "the old potato attendant stands calmly in front of a yellow Lamborghini parked across two wheelchair spots, the truffle rich kid leaning on the car",
+   "motion": "slow push-in, Erwin does not move",
+   "tag": "[calm]"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "LEON",
+   "text": "Weißt du, wer ich bin?",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "medium close-up",
+   "action": "Leon smirking, sunglasses pushed up, spinning his car key on one finger",
+   "motion": "he spins the key and smirks"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "ERWIN",
+   "text": "Einer, der falsch parkt.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin looking at the wheelchair sign, then back at Leon",
+   "motion": "he glances at the sign, then back",
+   "tag": "[calm]"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "LEON",
+   "text": "Ich bin Leon von Trüffel. Mein Vater hat dieses Parkhaus gebaut.",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "medium shot",
+   "action": "Leon spreading his arms toward the garage",
+   "motion": "he gestures around arrogantly"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "ERWIN",
+   "text": "Dann weiß er ja, wofür die blauen Schilder sind.",
+   "cast": [
+    "ERWIN",
+    "LEON"
+   ],
+   "camera": "two-shot",
+   "action": "Erwin pointing calmly at the blue wheelchair sign",
+   "motion": "he points slowly at the sign",
+   "tag": "[calm]"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "MIA",
+   "text": "Leon, alle filmen schon.",
+   "cast": [
+    "MIA",
+    "LEON"
+   ],
+   "camera": "medium shot",
+   "action": "Mia pulling Leon's sleeve, a crowd of shoppers filming with phones in the background",
+   "motion": "she tugs his sleeve, people raise their phones"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "LEON",
+   "text": "Fünfhundert Euro. Und du hast mich nie gesehen.",
+   "cast": [
+    "LEON",
+    "ERWIN"
+   ],
+   "camera": "close-up on the money",
+   "action": "Leon stuffing a stack of cash into the chest pocket of Erwin's vest",
+   "motion": "he pushes the cash into the pocket"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "ERWIN",
+   "text": "Steck das weg, Junge.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin pulling the money out and handing it back without looking at it",
+   "motion": "he hands the money back calmly",
+   "tag": "[calm]"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "ERWIN",
+   "text": "Abschleppdienst. Ebene minus zwei.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin speaking into his walkie-talkie, eyes fixed on Leon",
+   "motion": "he presses the radio button",
+   "tag": "[calm]"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "LEON",
+   "text": "Das traust du dich nicht.",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "close-up",
+   "action": "Leon laughing in disbelief",
+   "motion": "he laughs nervously"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "LEON",
+   "text": "Mein Lambo?!",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "wide shot",
+   "action": "a tow truck lifting the yellow Lamborghini, Leon running after it, the crowd laughing and filming",
+   "motion": "the car rises on the tow truck, Leon chases it"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "ERWIN",
+   "text": "Ab jetzt hundertachtzig Euro mehr.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin writing a ticket",
+   "motion": "he tears off the ticket",
+   "tag": "[calm]"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "LEON",
+   "text": "Das wirst du bereuen, Kartoffel. Ich schwör's dir.",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "extreme close-up",
+   "action": "Leon's furious face, the crowd's phone flashes reflecting in his eyes",
+   "motion": "he steps right up to Erwin's face"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "ERWIN",
+   "text": "Das haben schon ganz andere gesagt.",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin unimpressed, sticking the ticket on Leon's chest",
+   "motion": "he sticks the ticket on Leon's jacket",
+   "tag": "[calm]"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "LEON",
+   "text": "Papa! Ein Parkwächter hat meinen Lambo abschleppen lassen!",
+   "cast": [
+    "LEON",
+    "VATER"
+   ],
+   "camera": "wide shot",
+   "action": "Leon storming into the dark office, his father at the fireplace with a glass of whisky",
+   "motion": "Leon bursts in, father slowly turns"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Ein Parkwächter?",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "close-up",
+   "action": "the truffle father raising an eyebrow",
+   "motion": "he puts the glass down"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "LEON",
+   "text": "Zweihunderttausend Aufrufe. Alle lachen über uns.",
+   "cast": [
+    "LEON"
+   ],
+   "camera": "close-up",
+   "action": "Leon holding up his phone showing the viral video",
+   "motion": "he shoves the phone toward his father"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Niemand lacht über uns. Morgen ist der Mann arbeitslos.",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "low-angle close-up",
+   "action": "the father with cold eyes, fire behind him",
+   "motion": "slow push-in, the fire crackles"
+  },
+  {
+   "loc": "BUERO",
+   "speaker": "BETREIBER",
+   "text": "Herr von Trüffel! Welche Ehre.",
+   "cast": [
+    "BETREIBER",
+    "VATER"
+   ],
+   "camera": "medium two-shot",
+   "action": "the nervous pear operator jumping up from his desk as the father enters",
+   "motion": "he jumps up and offers his hand"
+  },
+  {
+   "loc": "BUERO",
+   "speaker": "VATER",
+   "text": "Entlassen Sie Ihren Parkwächter. Heute noch.",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "close-up",
+   "action": "the father ignoring the handshake",
+   "motion": "he does not take the hand"
+  },
+  {
+   "loc": "BUERO",
+   "speaker": "BETREIBER",
+   "text": "Erwin? Das… das kann ich nicht.",
+   "cast": [
+    "BETREIBER"
+   ],
+   "camera": "close-up",
+   "action": "the pear sweating, wiping his forehead",
+   "motion": "he wipes sweat from his forehead"
+  },
+  {
+   "loc": "BUERO",
+   "speaker": "VATER",
+   "text": "Ich habe dieses Gebäude gebaut.",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "medium shot",
+   "action": "the father leaning over the desk",
+   "motion": "he leans in threateningly"
+  },
+  {
+   "loc": "BUERO",
+   "speaker": "BETREIBER",
+   "text": "Sie haben das Gebäude gebaut. Aber nicht den Boden darunter.",
+   "cast": [
+    "BETREIBER"
+   ],
+   "camera": "close-up",
+   "action": "the pear looking down at the floor",
+   "motion": "he points down at the floor"
+  },
+  {
+   "loc": "BUERO",
+   "speaker": "VATER",
+   "text": "Was soll das heißen?",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "close-up",
+   "action": "the father frowning",
+   "motion": "his eyes narrow"
+  },
+  {
+   "loc": "BUERO",
+   "speaker": "BETREIBER",
+   "text": "Fragen Sie ihn selbst.",
+   "cast": [
+    "BETREIBER"
+   ],
+   "camera": "medium close-up",
+   "action": "the pear looking through the glass at Erwin in his booth below",
+   "motion": "he looks down through the glass"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Bodo. Ebene minus zwei. Bring dem Alten Respekt bei.",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "close-up",
+   "action": "the father on the phone at the window at night",
+   "motion": "he hangs up coldly"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "BODO",
+   "text": "Du bist also der Parkwächter.",
+   "cast": [
+    "BODO",
+    "ERWIN"
+   ],
+   "camera": "low-angle wide shot",
+   "action": "the huge coconut security man and two guards walking toward Erwin's booth",
+   "motion": "heavy footsteps, they surround the booth"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "ERWIN",
+   "text": "Guten Abend, Bodo. Wie geht's deiner Mutter?",
+   "cast": [
+    "ERWIN"
+   ],
+   "camera": "close-up",
+   "action": "Erwin calmly sipping coffee from a thermos cup",
+   "motion": "he sips his coffee, not looking up",
+   "tag": "[calm]"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "BODO",
+   "text": "Woher kennst du meine Mutter?",
+   "cast": [
+    "BODO"
+   ],
+   "camera": "close-up",
+   "action": "Bodo frozen, confused",
+   "motion": "he stops dead"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "ERWIN",
+   "text": "Ich hab sie damals aus den Trümmern getragen. Du warst vier.",
+   "cast": [
+    "ERWIN",
+    "BODO"
+   ],
+   "camera": "two-shot",
+   "action": "Erwin looking up at Bodo for the first time",
+   "motion": "he looks up slowly",
+   "tag": "[softly]"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "BODO",
+   "text": "…Herr Knolle?",
+   "cast": [
+    "BODO"
+   ],
+   "camera": "extreme close-up",
+   "action": "Bodo's eyes widening, the hard face softening",
+   "motion": "his face slowly changes"
+  },
+  {
+   "loc": "GARAGE",
+   "speaker": "BODO",
+   "text": "Sorry, Chef. Für diesen Mann rühr ich keinen Finger.",
+   "cast": [
+    "BODO"
+   ],
+   "camera": "medium shot",
+   "action": "Bodo on the phone, stepping back from the booth, signalling his guards to leave",
+   "motion": "he waves his guards away and hangs up"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Finden Sie alles über diesen Mann heraus. Alles.",
+   "cast": [
+    "VATER",
+    "DETEKTIV"
+   ],
+   "camera": "medium two-shot",
+   "action": "the father at his desk, the walnut detective standing in front of it",
+   "motion": "the father slides a photo of Erwin across the desk"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "DETEKTIV",
+   "text": "Wird erledigt.",
+   "cast": [
+    "DETEKTIV"
+   ],
+   "camera": "close-up",
+   "action": "the detective putting the photo in his coat",
+   "motion": "he nods and turns"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "DETEKTIV",
+   "text": "Erwin Knolle. Neun Jahre Gefängnis. Wegen eines Hauseinsturzes.",
+   "cast": [
+    "DETEKTIV",
+    "VATER"
+   ],
+   "camera": "medium shot",
+   "action": "the detective placing a thick folder stamped GEHEIM on the desk",
+   "motion": "he drops the folder on the desk"
+  },
+  {
+   "loc": "VILLA",
+   "speaker": "VATER",
+   "text": "Nein… das kann nicht sein. Er ist…",
+   "cast": [
+    "VATER"
+   ],
+   "camera": "extreme close-up",
+   "action": "the father staring at an old photo from the folder showing a potato man holding a little truffle boy on a potato field, his hand trembling",
+   "motion": "his hand trembles, slow push-in, the fire flickers"
+  }
+ ],
+ "end_text": "Teil 2…"
+}

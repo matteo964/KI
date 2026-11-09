@@ -1,0 +1,89 @@
+{
+  "series_title": "Der Parkwächter",
+  "style": "Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed skin and fabric textures, dramatic moody lighting, dark luxury color palette (black, burgundy, gold), shallow depth of field, anthropomorphic fruit- and vegetable-headed characters, vertical 9:16 composition, no text except the glowing forehead displays and the written props mentioned",
+  "voice_tempo": 1.1,
+  "music": {
+    "track": "Batida Funk Medley (TikTok-Sound), ab 0:11",
+    "start_s": 11,
+    "description": "Brazilian funk / batida beat, about 130 BPM, punchy tamborzão drums, deep 808 bass, no vocals",
+    "gain_db": -5
+  },
+  "characters": {
+    "ERWIN": {
+      "name": "Erwin Knolle (Kartoffel, Parkwächter)",
+      "display": "312 €",
+      "prompt": "a calm old man in his seventies whose entire head is a rough brown potato with small sprouts like bushy grey eyebrows, deep wise tired eyes, a weathered kind face, a red glowing digital LED display embedded in his forehead showing \"{display}\", wearing a worn grey parking attendant uniform jacket with a reflective vest, a flat cap, a walkie-talkie on his chest",
+      "voice": {"library": "he4iF6V8tdCa0FGloXxE", "premade": "pNInz6obpgDQGcFmaJgB", "model": "eleven_v3", "name": "Heiner"},
+      "voice_note": "ruhig, tief, wenige Worte, nie laut"
+    },
+    "LEON": {
+      "name": "Leon von Trüffel (junger Trüffel)",
+      "display": "2.000.000 €",
+      "prompt": "an arrogant young man around twenty whose entire head is a small glossy black truffle with a lumpy textured surface, styled like a rich kid, smug eyes, designer sunglasses pushed up, a red glowing digital LED display embedded in his forehead showing \"{display}\", wearing a cream designer jacket over a black shirt, gold chain, expensive white sneakers",
+      "voice": {"library": "h1IssowVS2h4nL5ZbkkK", "premade": "TX3LPaxmHKxFdv7VOQHJ", "model": "eleven_multilingual_v2", "name": "The Fox"},
+      "voice_note": "arrogant, laut, später unsicher und emotional"
+    },
+    "VATER": {
+      "name": "Richard von Trüffel (großer Trüffel, Bauunternehmer)",
+      "display": "80.000.000 €",
+      "prompt": "a powerful broad man in his fifties whose entire head is a large black truffle with a lumpy surface, cold hard eyes, short grey beard texture, a red glowing digital LED display embedded in his forehead showing \"{display}\", wearing a perfectly tailored black three-piece suit, burgundy tie, heavy gold watch and signet ring",
+      "voice": {"library": "aZQ0ZrBshbMCU6TJwtuk", "premade": "cjVigY5qzO86Huf0OWal", "model": "eleven_multilingual_v2", "name": "Wolfgang"},
+      "voice_note": "kalt, kontrolliert, bricht in Teil 2/3 ein"
+    },
+    "MIA": {
+      "name": "Mia (Himbeere, Leons Freundin)",
+      "display": "40.000 €",
+      "prompt": "a stylish young woman whose entire head is a glossy pink raspberry with a small green leaf on top, worried big eyes, a red glowing digital LED display on her forehead showing \"{display}\", wearing a beige designer coat and a small handbag",
+      "voice": {"library": "DEZHhPbmb8LVZmWufkCh", "premade": "cgSgspJ2msm6clMCkdW9", "model": "eleven_multilingual_v2", "name": "Anna"},
+      "voice_note": "unsicher, will weg"
+    },
+    "BETREIBER": {
+      "name": "Herr Birne (Parkhausbetreiber)",
+      "display": "150.000 €",
+      "prompt": "a nervous chubby middle-aged man whose entire head is a yellow-green pear, sweating, round glasses, a red glowing digital LED display on his forehead showing \"{display}\", wearing a grey suit that is slightly too tight and a loosened tie",
+      "voice": {"library": "iQgleKwj2ZKxy6MvS4xe", "premade": "iP95p4xoKVk53GoZ742B", "model": "eleven_multilingual_v2", "name": "John"},
+      "voice_note": "nervös, unterwürfig, aber standhaft"
+    },
+    "BODO": {
+      "name": "Bodo (Kokosnuss, Security-Chef)",
+      "display": "3.800 €",
+      "prompt": "a huge muscular security man in his twenties whose entire head is a hairy brown coconut, scar over one eyebrow, intimidating stare, a red glowing digital LED display on his forehead showing \"{display}\", wearing a tight black security t-shirt, black cargo pants, an earpiece",
+      "voice": {"library": "RjLziZNN3CXUGWjzW67v", "premade": "nPczCjzI2devNBz1zQrb", "model": "eleven_multilingual_v2", "name": "Willi"},
+      "voice_note": "tief, erst bedrohlich, dann respektvoll"
+    },
+    "DETEKTIV": {
+      "name": "Detektiv Walnuss",
+      "display": "60.000 €",
+      "prompt": "a sharp middle-aged private investigator whose entire head is a wrinkled brown walnut, narrow clever eyes, a red glowing digital LED display on his forehead showing \"{display}\", wearing a beige trench coat over a dark suit, holding a thick brown folder stamped GEHEIM",
+      "voice": {"library": "r8MyP4qUsq5WFFSkPdfV", "premade": "onwK4e9ZLuTAKqWW03F9", "model": "eleven_multilingual_v2", "name": "Johannes"},
+      "voice_note": "sachlich, leise"
+    },
+    "RAMON": {
+      "name": "Ramon Chili (früherer Partner, Bösewicht)",
+      "display": "300.000.000 €",
+      "prompt": "a dangerous charming man in his fifties whose entire head is a glossy fiery red chili pepper with a curved green stem on top, a thin scar across the cheek, cold smiling eyes, a red glowing digital LED display on his forehead showing \"{display}\", wearing a white suit with a black shirt open at the collar, rings on every finger",
+      "voice": {"library": "5HF8cmJxhR4X9DaQ7U3X", "premade": "N2lVS1w4EtoT3dr4eOWO", "model": "eleven_multilingual_v2", "name": "Oscar"},
+      "voice_note": "freundlich-gefährlich, lächelnd"
+    },
+    "KOMMISSARIN": {
+      "name": "Kommissarin Zitrone",
+      "display": "4.100 €",
+      "prompt": "a strict woman in her forties whose entire head is a bright yellow lemon, sharp narrow eyes, a red glowing digital LED display on her forehead showing \"{display}\", wearing a dark navy police uniform with a gold badge",
+      "voice": {"library": "coPfQIqaxowKv5u2s2bV", "premade": "XrExE9yKIg1WjnnlVkGX", "model": "eleven_multilingual_v2", "name": "Johanna"},
+      "voice_note": "kühl, bestimmt"
+    },
+    "FREMDER": {
+      "name": "Reicher Typ (Cameo, Epilog)",
+      "display": "5.000.000 €",
+      "prompt": "a smug young rich guy whose entire head is a shiny green avocado, sunglasses, a red glowing digital LED display on his forehead showing \"{display}\", wearing a white polo shirt and a sweater over his shoulders",
+      "voice": {"library": "r8MyP4qUsq5WFFSkPdfV", "premade": "onwK4e9ZLuTAKqWW03F9", "model": "eleven_multilingual_v2", "name": "Johannes"},
+      "voice_note": "arrogant"
+    }
+  },
+  "locations": {
+    "GARAGE": "underground parking garage level -2 of a luxury shopping mall at night, polished concrete with gold accents, blue wheelchair parking signs on the wall, cold neon lights, a small glass attendant booth, expensive cars",
+    "VILLA": "dark luxurious home office in a modern villa at night, bookshelves, a crackling marble fireplace, a heavy wooden desk, a city view through tall windows",
+    "BUERO": "small glass office of the parking garage operator overlooking the garage, cheap desk, monitors with security camera feeds",
+    "GARAGE_TAG": "the same underground parking garage during the day, brighter light, calm atmosphere"
+  }
+}
