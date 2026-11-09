@@ -149,8 +149,8 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 slow dolly in, the horse snorts and shakes its mane. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 10 · 15.1s · ~3.1s · STABLE · medium two-shot
-**Wurst (Ich-Figur):** „Okay… und was mach ich mit dem Pfirsich?“
+### Shot 10 · 15.1s · ~3.5s · STABLE · medium two-shot
+**Wurst (Ich-Figur):** „Okay… und was mach ich mit dem Riesenpfirsich?“
 
 **Bild-Prompt:**
 ```
@@ -161,7 +161,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he scratches his head, the horse stares at him and blinks. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 11 · 18.2s · ~1.6s · STABLE · close-up
+### Shot 11 · 18.6s · ~1.6s · STABLE · close-up
 **Schwiegervater (Ananas):** „Das ist ein Pferd.“
 
 **Bild-Prompt:**
@@ -173,7 +173,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he blinks once and speaks flatly. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 12 · 19.8s · ~3.5s · STABLE · close-up on the horse forehead display, sausage guy in the foreground
+### Shot 12 · 20.2s · ~3.5s · STABLE · close-up on the horse forehead display, sausage guy in the foreground
 **Wurst (Ich-Figur):** „Das Pferd hat achthunderttausend auf der Stirn!“
 
 **Bild-Prompt:**
@@ -185,7 +185,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 rack focus from the sausage guy to the horse display, horse lifts its head proudly. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 13 · 23.3s · ~1.2s · STABLE · close-up
+### Shot 13 · 23.7s · ~1.2s · STABLE · close-up
 **Schwiegervater (Ananas):** „Ja.“
 
 **Bild-Prompt:**
@@ -197,7 +197,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he exhales smoke and says one word. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 14 · 24.5s · ~2.6s · STABLE · medium shot
+### Shot 14 · 24.9s · ~2.6s · STABLE · medium shot
 **Wurst (Ich-Figur):** „Euer Pferd verdient mehr als ich?“
 
 **Bild-Prompt:**
@@ -209,7 +209,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he looks back and forth between the two numbers in disbelief. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 15 · 27.1s · ~3.2s · STABLE · medium two-shot
+### Shot 15 · 27.5s · ~3.2s · STABLE · medium two-shot
 **Schwiegervater (Ananas):** „Unser Pferd verdient mehr als die meisten.“
 
 **Bild-Prompt:**
@@ -221,7 +221,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he pats the horse, the horse neighs. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 16 · 30.3s · ~1.7s · STABLE · medium shot
+### Shot 16 · 30.7s · ~1.7s · STABLE · medium shot
 **Butler (Champagnerflasche):** „Durchgefallen, Sir.“ *(Korkenknall)*
 
 **Bild-Prompt:**
@@ -233,7 +233,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 the cork pops off the butler's head, he speaks without emotion. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 17 · 32.0s · ~1.6s · STABLE · low angle close-up
+### Shot 17 · 32.4s · ~1.6s · STABLE · low angle close-up
 **Wurst (Ich-Figur):** „Wer bist du denn?!“
 
 **Bild-Prompt:**
@@ -245,7 +245,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he jerks back and shouts. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 18 · 33.6s · ~1.2s · STABLE · close-up
+### Shot 18 · 34.0s · ~1.2s · STABLE · close-up
 **Butler (Champagnerflasche):** „Der Butler.“
 
 **Bild-Prompt:**
@@ -257,7 +257,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he adjusts his gloves and his monocle glints. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 19 · 34.8s · ~1.8s · STABLE · medium two-shot
+### Shot 19 · 35.2s · ~1.8s · STABLE · medium two-shot
 **Wurst (Ich-Figur):** „Du bist eine Flasche!“
 
 **Bild-Prompt:**
@@ -269,7 +269,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he points dramatically, the butler stays motionless. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 20 · 36.6s · ~1.5s · STABLE · close-up
+### Shot 20 · 37.0s · ~1.5s · STABLE · close-up
 **Butler (Champagnerflasche):** „Eine sehr teure.“
 
 **Bild-Prompt:**
@@ -281,7 +281,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 slow push-in, he raises one eyebrow. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 21 · 38.1s · ~2.1s · YACHT · wide shot
+### Shot 21 · 38.5s · ~2.1s · YACHT · wide shot
 **Schwiegervater (Ananas):** „Test Nummer zwei. Schlag.“
 
 **Bild-Prompt:**
@@ -293,7 +293,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 camera slowly orbits, father hands over the club. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 22 · 40.1s · ~1.7s · YACHT · medium shot from behind
+### Shot 22 · 40.5s · ~1.7s · YACHT · medium shot from behind
 **Wurst (Ich-Figur):** „Oh… der ist im Meer.“
 
 **Bild-Prompt:**
@@ -305,7 +305,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he swings badly, the golden ball flies over the railing and splashes into the water. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 23 · 41.9s · ~1.6s · YACHT · close-up
+### Shot 23 · 42.3s · ~1.6s · YACHT · close-up
 **Schwiegervater (Ananas):** „Der war vergoldet.“
 
 **Bild-Prompt:**
@@ -317,7 +317,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he slowly turns his head toward the sausage guy. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 24 · 43.5s · ~2.7s · YACHT · medium close-up
+### Shot 24 · 43.9s · ~2.7s · YACHT · medium close-up
 **Wurst (Ich-Figur):** „Warum ist ein Golfball vergoldet?!“
 
 **Bild-Prompt:**
@@ -329,7 +329,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he grabs his head and shouts. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 25 · 46.1s · ~1.2s · YACHT · close-up
+### Shot 25 · 46.5s · ~1.2s · YACHT · close-up
 **Schwiegervater (Ananas):** „Warum nicht?“
 
 **Bild-Prompt:**
@@ -341,7 +341,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he takes a sip, shrugs slightly. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 26 · 47.3s · ~1.9s · YACHT · medium shot
+### Shot 26 · 47.7s · ~1.9s · YACHT · medium shot
 **Butler (Champagnerflasche):** „Zweimal durchgefallen.“ *(Korkenknall)*
 
 **Bild-Prompt:**
@@ -353,7 +353,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 the cork pops, foam fizzes, he speaks without emotion. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 27 · 49.2s · ~2.7s · DINING · top-down close shot then medium
+### Shot 27 · 49.6s · ~2.7s · DINING · top-down close shot then medium
 **Wurst (Ich-Figur):** „Warum liegen hier vierzehn Gabeln?“
 
 **Bild-Prompt:**
@@ -365,7 +365,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 slow pan along the row of forks to the confused sausage guy. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 28 · 51.9s · ~2.1s · DINING · medium two-shot
+### Shot 28 · 52.3s · ~2.1s · DINING · medium two-shot
 **Lara (Tochter):** „Nimm einfach die richtige.“
 
 **Bild-Prompt:**
@@ -377,7 +377,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 she leans in and whispers. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 29 · 54.0s · ~2.1s · DINING · close-up
+### Shot 29 · 54.4s · ~2.1s · DINING · close-up
 **Wurst (Ich-Figur):** „Welche ist die richtige?!“
 
 **Bild-Prompt:**
@@ -389,7 +389,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 his hand hovers back and forth over the forks. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 30 · 56.1s · ~2.1s · DINING · medium shot at the head of the table
+### Shot 30 · 56.5s · ~2.1s · DINING · medium shot at the head of the table
 **Schwiegervater (Ananas):** „Die, die ich nicht nehme.“
 
 **Bild-Prompt:**
@@ -401,7 +401,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he picks up a fork without looking. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 31 · 58.1s · ~3.7s · DINING · medium shot
+### Shot 31 · 58.5s · ~3.7s · DINING · medium shot
 **Butler (Champagnerflasche):** „Die Rechnung, Sir. In diesem Haus zahlt der Gast.“
 
 **Bild-Prompt:**
@@ -413,7 +413,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he places the folder down with a gloved hand and steps back. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 32 · 61.8s · ~2.8s · DINING · close-up
+### Shot 32 · 62.2s · ~2.8s · DINING · close-up
 **Wurst (Ich-Figur):** „Neuntausendneunhundertneunzig Euro?!“
 
 **Bild-Prompt:**
@@ -425,7 +425,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he opens the folder and his eyes go wide, camera snap zoom. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 33 · 64.6s · ~1.2s · DINING · close-up on his forehead display
+### Shot 33 · 65.0s · ~1.2s · DINING · close-up on his forehead display
 **Wurst (Ich-Figur):** „Okay… okay.“
 
 **Bild-Prompt:**
@@ -437,7 +437,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he taps the card, the forehead number rapidly counts down to 9. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 34 · 65.8s · ~1.5s · DINING · close-up
+### Shot 34 · 66.2s · ~1.5s · DINING · close-up
 **Schwiegervater (Ananas):** „Du hast bezahlt?“
 
 **Bild-Prompt:**
@@ -449,7 +449,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 one eyebrow slowly rises. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 35 · 67.3s · ~2.3s · DINING · medium close-up
+### Shot 35 · 67.7s · ~2.3s · DINING · medium close-up
 **Wurst (Ich-Figur):** „Ja… war alles, was ich hatte.“
 
 **Bild-Prompt:**
@@ -461,7 +461,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he shrugs with a sad little smile. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 36 · 69.6s · ~1.2s · DINING · close-up
+### Shot 36 · 70.0s · ~1.2s · DINING · close-up
 **Schwiegervater (Ananas):** „Warum?“
 
 **Bild-Prompt:**
@@ -473,7 +473,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he leans forward slowly. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 37 · 70.8s · ~4.6s · DINING · medium shot
+### Shot 37 · 71.2s · ~4.6s · DINING · medium shot
 **Wurst (Ich-Figur):** „Weil ich sie liebe. Und weil der Butler mich so angeschaut hat.“
 
 **Bild-Prompt:**
@@ -485,7 +485,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he looks at Lara, then nervously glances at the butler. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 38 · 75.4s · ~3.3s · DINING · slow push-in close-up
+### Shot 38 · 75.8s · ~3.3s · DINING · slow push-in close-up
 **Schwiegervater (Ananas):** „Du bist der Erste, der nicht weggerannt ist.“
 
 **Bild-Prompt:**
@@ -497,7 +497,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he puts the cigar down, a slight smile forms. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 39 · 78.7s · ~3.0s · DINING · close-up
+### Shot 39 · 79.1s · ~3.0s · DINING · close-up
 **Lara (Tochter):** „Ich hab dir doch gesagt, er ist anders.“
 
 **Bild-Prompt:**
@@ -509,7 +509,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 she smiles and squeezes the sausage guy's hand. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 40 · 81.7s · ~2.5s · DINING · medium two-shot
+### Shot 40 · 82.1s · ~2.5s · DINING · medium two-shot
 **Schwiegervater (Ananas):** „Willkommen in der Familie, Sohn.“
 
 **Bild-Prompt:**
@@ -521,7 +521,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 he puts his hand on his shoulder, the sausage guy's forehead display flickers. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 41 · 84.3s · ~1.5s · DINING · extreme close-up on the forehead display
+### Shot 41 · 84.7s · ~1.5s · DINING · extreme close-up on the forehead display
 **Wurst (Ich-Figur):** „Neun Millionen?!“
 
 **Bild-Prompt:**
@@ -533,7 +533,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 the display numbers spin rapidly up to 9.000.000, his eyes go huge. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 42 · 85.7s · ~1.4s · DINING · medium shot
+### Shot 42 · 86.1s · ~1.4s · DINING · medium shot
 **Butler (Champagnerflasche):** „Bestanden, Sir.“ *(Korkenknall)*
 
 **Bild-Prompt:**
@@ -545,7 +545,7 @@ Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed 
 the cork pops and champagne sprays upward, he stays perfectly still. Subtle realistic lip movement while speaking, cinematic, keep characters consistent, no text changes except the forehead display.
 ```
 
-### Shot 43 · 87.1s · ~1.8s · DINING · wide shot
+### Shot 43 · 87.5s · ~1.8s · DINING · wide shot
 **Schwiegervater (Ananas):** „Der hält nicht lange.“
 
 **Bild-Prompt:**

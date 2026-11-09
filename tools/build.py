@@ -110,7 +110,8 @@ def cmd_voices(d, voices="library", model="eleven_v3"):
         if f.exists():
             continue
         voice = s["characters"][sh["speaker"]]["voice"][voices]
-        text = f"{sh.get('tag', '')} {sh['text']}".strip() if model == "eleven_v3" else sh["text"]
+        spoken = sh.get("tts", sh["text"])
+        text = f"{sh.get('tag', '')} {spoken}".strip() if model == "eleven_v3" else spoken
         print(f"{nr(i)} {sh['speaker']}: {sh['text']}")
         eleven(f"/v1/text-to-speech/{voice}?output_format=mp3_44100_128",
                {"text": text, "model_id": model, "language_code": "de"}, f)
@@ -142,7 +143,13 @@ def cmd_assemble(d):
     vf = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},format=yuv420p"
     segs, missing = [], []
     for i, sh in enumerate(s["shots"]):
-        voice, clip = d / "voices" / f"{nr(i)}.mp3", d / "clips" / f"{nr(i)}.mp4"
+        raw, clip = d / "voices" / f"{nr(i)}.mp3", d / "clips" / f"{nr(i)}.mp4"
+        voice = tmp / f"{nr(i)}_vo.wav"
+        if raw.exists():  # Stille an den Enden kappen + Tempo anpassen (Tonhöhe bleibt)
+            trim = "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.03"
+            run(["ffmpeg", "-y", "-v", "error", "-i", str(raw), "-af",
+                 f"{trim},areverse,{trim},areverse,"
+                 f"silenceremove=stop_periods=-1:stop_duration=0.2:stop_threshold=-45dB:stop_silence=0.2,atempo={s.get('voice_tempo', 1.0)}", "-ar", "44100", str(voice)])
         dur = (duration(voice) if voice.exists() else estimate(sh["text"])) + GAP
         dur = max(dur, MIN_SHOT)
         if clip.exists():
@@ -180,7 +187,8 @@ def cmd_assemble(d):
         g = s["music"]["gain_db"]
         fc = (f"[0:a]loudnorm=I=-16:TP=-2[v];[1:a]loudnorm=I={-16 + g}:TP=-2,aformat=channel_layouts=stereo[m];"
               f"[v][m]amix=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5[a]")
-        run(["ffmpeg", "-y", "-v", "error", "-i", str(joined), "-stream_loop", "-1", "-i", str(music),
+        run(["ffmpeg", "-y", "-v", "error", "-i", str(joined), "-ss", str(s["music"].get("start_s", 0)),
+             "-stream_loop", "-1", "-i", str(music),
              "-filter_complex", fc, "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
              "-ar", "44100", str(final)])
     else:

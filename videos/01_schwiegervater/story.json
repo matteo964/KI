@@ -1,8 +1,11 @@
 {
   "title": "Das Vorstellungsgespräch beim Schwiegervater",
   "style": "Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed skin and fabric textures, dramatic warm golden lighting, dark luxury color palette (black, burgundy, gold), shallow depth of field, anthropomorphic food-headed characters, vertical 9:16 composition, no text except the forehead displays",
+  "voice_tempo": 1.1,
   "music": {
-    "description": "Rhythmic trap/hype background beat, about 125-130 BPM, deep 808 bass hits, sparse hi-hats, playful and confident luxury vibe, no vocals",
+    "track": "Batida Funk Medley (TikTok-Sound), ab 0:11",
+    "start_s": 11,
+    "description": "Brazilian funk / batida beat, about 130 BPM, punchy tamborzão drums, deep 808 bass, playful and confident, no vocals",
     "gain_db": -5
   },
   "characters": {
@@ -61,7 +64,7 @@
      "cast": ["WURST"], "camera": "medium close-up", "action": "sausage guy with raised eyebrows, arms open", "motion": "he quickly follows, speaking with a squeaky voice"},
     {"loc": "STABLE", "speaker": "VATER", "tag": "[deadpan]", "text": "Test Nummer eins.",
      "cast": ["VATER", "WURST", "PFERD"], "camera": "wide establishing shot", "action": "father points with his cigar at the peach stallion, sausage guy stands next to it holding the reins awkwardly", "motion": "slow dolly in, the horse snorts and shakes its mane"},
-    {"loc": "STABLE", "speaker": "WURST", "tag": "[confused]", "text": "Okay… und was mach ich mit dem Pfirsich?",
+    {"loc": "STABLE", "speaker": "WURST", "tag": "[confused]", "text": "Okay… und was mach ich mit dem Riesenpfirsich?",
      "cast": ["WURST", "PFERD"], "camera": "medium two-shot", "action": "sausage guy looks the peach stallion up and down, scratching his head", "motion": "he scratches his head, the horse stares at him and blinks"},
     {"loc": "STABLE", "speaker": "VATER", "tag": "[deadpan]", "text": "Das ist ein Pferd.",
      "cast": ["VATER"], "camera": "close-up", "action": "pineapple father, completely unimpressed", "motion": "he blinks once and speaks flatly"},
