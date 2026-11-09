@@ -26,7 +26,7 @@ Der Underdog spricht wenig, bleibt ruhig und gewinnt jede Szene. Vor dem Erzeuge
 - Setups in Teil 1 pflanzen, die erst in Teil 2/3 zünden.
 - `"end_text": "Teil 2…"` im story.json blendet den Text im letzten Shot ein.
 - Gemeinsame Figuren, Orte, Stil und Musik in `videos/<serie>/serie.json`, jeder Teil verweist mit `"series": "../serie.json"` darauf.
-- Thema immer **eigenständig**, nicht von den Referenz-Creatorn kopieren. Schon verwendet: Schwiegervater-Test (01), Lottoschein (02, vom Creator abgelehnt: zu sitcom-artig).
+- Thema immer **eigenständig**, nicht von den Referenz-Creatorn kopieren. Schon verwendet: Schwiegervater-Test (01), Lottoschein (02, vom Creator abgelehnt: zu sitcom-artig), Parkwächter (03, vom Creator abgenommen = Vorbild für Aufbau und Ton).
 
 ## 4. Stimmen (vom Creator abgenommen, nicht ändern ohne Rückfrage)
 ElevenLabs-Library-Stimmen (brauchen mindestens den Creator-Tarif). Das Modell pro Figur über `"model"` in `voice` setzen.
