@@ -109,12 +109,13 @@ def cmd_voices(d, voices="library", model="eleven_v3"):
         f = out / f"{nr(i)}.mp3"
         if f.exists():
             continue
-        voice = s["characters"][sh["speaker"]]["voice"][voices]
+        vc = s["characters"][sh["speaker"]]["voice"]
+        voice, m = vc[voices], vc.get("model", model)  # Modell pro Figur überschreibbar
         spoken = sh.get("tts", sh["text"])
-        text = f"{sh.get('tag', '')} {spoken}".strip() if model == "eleven_v3" else spoken
+        text = f"{sh.get('tag', '')} {spoken}".strip() if m == "eleven_v3" else spoken
         print(f"{nr(i)} {sh['speaker']}: {sh['text']}")
         eleven(f"/v1/text-to-speech/{voice}?output_format=mp3_44100_128",
-               {"text": text, "model_id": model, "language_code": "de"}, f)
+               {"text": text, "model_id": m, "language_code": "de"}, f)
 
 
 def cmd_sfx(d):

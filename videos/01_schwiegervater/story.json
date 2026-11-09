@@ -12,13 +12,13 @@
     "WURST": {
       "name": "Wurst (Ich-Figur)",
       "prompt": "a slim young man whose entire head is a glossy pink-orange sausage (wiener) with a little tied knot on top, cartoon face with big expressive brown eyes and thick dark eyebrows, a red glowing digital LED display embedded in his forehead showing \"9.999\", wearing a slightly oversized cheap grey suit, white shirt, crooked thin black tie, black sneakers",
-      "voice": {"library": "f2yUVfK5jdm78zlpcZ8C", "premade": "TX3LPaxmHKxFdv7VOQHJ"},
+      "voice": {"library": "h1IssowVS2h4nL5ZbkkK", "premade": "TX3LPaxmHKxFdv7VOQHJ", "model": "eleven_multilingual_v2", "name": "The Fox"},
       "voice_note": "jung, aufgeregt, ungläubig, schnell"
     },
     "VATER": {
       "name": "Schwiegervater (Ananas)",
       "prompt": "a tall imposing broad-shouldered man in his fifties whose entire head is a large golden pineapple with a spiky green crown on top, stern face with heavy brows, narrow unimpressed eyes and a tight mouth, a red glowing digital LED display embedded in his forehead showing \"50.000.000\", wearing a perfectly tailored white three-piece suit, gold watch, gold rings, holding a thick cigar",
-      "voice": {"library": "2OcnG4mH3jIMtWz3vKus", "premade": "pNInz6obpgDQGcFmaJgB"},
+      "voice": {"library": "he4iF6V8tdCa0FGloXxE", "premade": "pNInz6obpgDQGcFmaJgB", "model": "eleven_v3", "name": "Heiner"},
       "voice_note": "tief, ruhig, trocken, monoton, wenige Worte"
     },
     "LARA": {
@@ -88,7 +88,7 @@
      "cast": ["BUTLER"], "camera": "close-up", "action": "champagne butler with the LED display 1.200.000 glowing, slight smug look", "motion": "slow push-in, he raises one eyebrow"},
     {"loc": "YACHT", "speaker": "VATER", "tag": "[deadpan]", "text": "Test Nummer zwei. Schlag.",
      "cast": ["VATER", "WURST"], "camera": "wide shot", "action": "father hands the sausage guy a gold golf club at the tee mat by the railing", "motion": "camera slowly orbits, father hands over the club"},
-    {"loc": "YACHT", "speaker": "WURST", "tag": "[nervous]", "text": "Oh… der ist im Meer.",
+    {"loc": "YACHT", "speaker": "WURST", "tag": "[nervous]", "text": "Oh… der ist im Meer.", "tts": "Oh… der ist jetzt im Meer.",
      "cast": ["WURST"], "camera": "medium shot from behind", "action": "sausage guy after a terrible swing, watching a shiny golden ball fly into the sea", "motion": "he swings badly, the golden ball flies over the railing and splashes into the water"},
     {"loc": "YACHT", "speaker": "VATER", "tag": "[deadpan]", "text": "Der war vergoldet.",
      "cast": ["VATER"], "camera": "close-up", "action": "pineapple father staring at the sea", "motion": "he slowly turns his head toward the sausage guy"},
