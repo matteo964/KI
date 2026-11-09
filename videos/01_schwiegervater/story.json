@@ -24,7 +24,7 @@
     "LARA": {
       "name": "Lara (Tochter)",
       "prompt": "a beautiful young woman in Pixar style with long wavy dark brown hair, warm brown eyes, soft smile, a red glowing digital LED display on her forehead showing \"250.000\", wearing an elegant black satin dress and delicate gold jewelry",
-      "voice": {"library": "XqTEUeXvEbbL4e30WfT0", "premade": "cgSgspJ2msm6clMCkdW9"},
+      "voice": {"library": "DEZHhPbmb8LVZmWufkCh", "premade": "cgSgspJ2msm6clMCkdW9", "model": "eleven_multilingual_v2", "name": "Anna"},
       "voice_note": "warm, verliebt, leicht amüsiert"
     },
     "BUTLER": {
