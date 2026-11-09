@@ -5,7 +5,12 @@
   python3 tools/build.py voices   videos/01_schwiegervater [--voices library|premade] [--model eleven_v3]
   python3 tools/build.py sfx      videos/01_schwiegervater   # Korkenknall etc. per ElevenLabs
   python3 tools/build.py music    videos/01_schwiegervater   # Hintergrundbeat per ElevenLabs Music
+  python3 tools/build.py check    videos/01_schwiegervater [--fix 3]  # Stimmen per Whisper prüfen, Fehler neu erzeugen
   python3 tools/build.py assemble videos/01_schwiegervater   # fertiges Video -> out/final.mp4
+
+Serien: story.json kann "series": "../serie.json" setzen. Daraus kommen style, characters,
+locations, music und voice_tempo (Werte in story.json haben Vorrang). "end_text" (z. B. "Teil 2…")
+wird im letzten Shot eingeblendet.
 
 Ordner pro Video:
   story.json        Figuren, Orte, Shots (einzige Quelle)
@@ -25,7 +30,15 @@ FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
 
 def load(d):
-    return json.loads((Path(d) / "story.json").read_text())
+    s = json.loads((Path(d) / "story.json").read_text())
+    if s.get("series"):
+        base = json.loads((Path(d) / s["series"]).read_text())
+        for k, v in base.items():
+            if isinstance(v, dict) and isinstance(s.get(k), dict):
+                s[k] = {**v, **s[k]}
+            else:
+                s.setdefault(k, v)
+    return s
 
 
 def run(cmd):
@@ -48,7 +61,9 @@ def nr(i):
 
 
 def image_prompt(s, shot):
-    chars = "; ".join(s["characters"][c]["prompt"] for c in shot["cast"])
+    disp = shot.get("displays", {})  # Stirnzahl pro Shot: {"MO": "48.000.000 €"}
+    chars = "; ".join(s["characters"][c]["prompt"].replace("{display}", disp.get(c, s["characters"][c].get("display", "")))
+                      for c in shot["cast"])
     return (f"{s['style']}. {shot['camera']}. Scene: {s['locations'][shot['loc']]}. "
             f"Characters: {chars}. Action: {shot['action']}.")
 
@@ -72,7 +87,7 @@ def cmd_docs(d):
     chars = sum(len(sh["text"]) for sh in s["shots"])
     refs = "\n".join(
         f"**{c['name']}**\n```\n{s['style']}. Character reference sheet, full body front view and close-up portrait, "
-        f"neutral dark studio background: {c['prompt']}.\n```\n"
+        f"neutral dark studio background: {c['prompt'].replace('{display}', c.get('display', ''))}.\n```\n"
         + (f"Stimme: {c['voice_note']}\n" if c.get("voice") else "")
         for c in s["characters"].values())
     locs = "\n".join(f"- **{k}:** {v}" for k, v in s["locations"].items())
@@ -153,6 +168,8 @@ def cmd_assemble(d):
                  f"silenceremove=stop_periods=-1:stop_duration=0.2:stop_threshold=-45dB:stop_silence=0.2,atempo={s.get('voice_tempo', 1.0)}", "-ar", "44100", str(voice)])
         dur = (duration(voice) if voice.exists() else estimate(sh["text"])) + GAP
         dur = max(dur, MIN_SHOT)
+        if i == len(s["shots"]) - 1 and s.get("end_text"):
+            dur += 1.2  # Cliffhanger kurz stehen lassen (wie Referenz 5)
         if clip.exists():
             vin = ["-stream_loop", "-1", "-i", str(clip)]
             vchain = vf
@@ -173,6 +190,11 @@ def cmd_assemble(d):
             achain += ";[2:a]aresample=44100,aformat=channel_layouts=stereo,volume=0.8,apad[s];[v][s]amix=2:normalize=0[a]"
         else:
             achain += ";[v]anull[a]"
+        if i == len(s["shots"]) - 1 and s.get("end_text"):
+            et = tmp / "end_text.txt"
+            et.write_text(s["end_text"])
+            vchain += (f",drawtext=fontfile={FONT}:textfile={et}:fontcolor=white:fontsize=110:borderw=8:"
+                       f"bordercolor=black:x=(w-text_w)/2:y=h*0.62")
         out = tmp / f"{nr(i)}.mp4"
         run(["ffmpeg", "-y", "-v", "error", *vin, *ain, *extra, "-filter_complex",
              f"[0:v]{vchain}[vo];{achain}", "-map", "[vo]", "-map", "[a]", "-t", f"{dur:.3f}",
@@ -200,10 +222,59 @@ def cmd_assemble(d):
         print(f"Platzhalter für fehlende Clips: {', '.join(missing)}")
 
 
+# ---------------------------------------------------------------- Prüfung
+NUM_ROOTS = ("ein", "zwei", "drei", "vier", "fünf", "sechs", "sieben", "acht", "neun", "zehn", "zwölf",
+             "zwanzig", "dreißig", "hundert", "tausend", "million", "milliard")
+
+
+def missing_words(text, heard):
+    """Wörter (>=4 Buchstaben) aus dem Skript, die in der Transkription nicht vorkommen."""
+    import difflib
+    words = lambda t: re.findall(r"[a-zäöüß]+", t.lower())
+    abbr = {"dr.": "doktor", "nr.": "nummer", "hr.": "herr", "hermo": "herr mo"}
+    heard = heard.lower()
+    for k, v in abbr.items():
+        heard = heard.replace(k, v)
+    h = words(heard)
+    bad = []
+    for w in words(text):
+        if len(w) < 4 or (any(r in w for r in NUM_ROOTS) and re.search(r"\d", heard)):
+            continue
+        if not h or max(difflib.SequenceMatcher(None, w, x).ratio() for x in h) < 0.75:
+            bad.append(w)
+    return bad
+
+
+def cmd_check(d, fix="0"):
+    import whisper
+    m = whisper.load_model("small")
+    s = load(d)
+    for attempt in range(int(fix) + 1):
+        bad = []
+        for i, sh in enumerate(s["shots"]):
+            f = Path(d) / "voices" / f"{nr(i)}.mp3"
+            if not f.exists():
+                continue
+            heard = m.transcribe(str(f), language="de")["text"].strip()
+            miss = missing_words(sh["text"], heard)
+            if miss:
+                bad.append(i)
+                print(f"{nr(i)} {sh['speaker']}: soll „{sh['text']}“ | gehört „{heard}“ | fehlt: {', '.join(miss)}")
+        if not bad:
+            print("Alle Zeilen OK")
+            return
+        if attempt < int(fix):
+            print(f"-> erzeuge {len(bad)} Zeile(n) neu (Versuch {attempt + 1}/{fix})")
+            for i in bad:
+                (Path(d) / "voices" / f"{nr(i)}.mp3").unlink()
+            cmd_voices(d)
+    print("Noch fehlerhaft -> Feld \"tts\" mit anderer Schreibweise setzen und erneut prüfen.")
+
+
 if __name__ == "__main__":
     if len(sys.argv) < 3:
         sys.exit(__doc__)
     cmd, d, *rest = sys.argv[1:]
     opts = dict(zip([a.lstrip("-") for a in rest[::2]], rest[1::2]))
     {"docs": cmd_docs, "voices": cmd_voices, "sfx": cmd_sfx, "music": cmd_music,
-     "assemble": cmd_assemble}[cmd](d, **opts)
+     "check": cmd_check, "assemble": cmd_assemble}[cmd](d, **opts)

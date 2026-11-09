@@ -1,0 +1,529 @@
+{
+ "title": "Der Lottoschein – Teil 3",
+ "series": "../serie.json",
+ "shots": [
+  {
+   "loc": "KIOSK",
+   "speaker": "MO",
+   "text": "ACHTUNDVIERZIG MILLIONEN?! Auf DEINER Stirn?!",
+   "cast": [
+    "MO",
+    "KARL"
+   ],
+   "camera": "medium two-shot",
+   "action": "Mo pointing at Karl's forehead 48.000.000 €, screaming",
+   "motion": "he points and screams",
+   "displays": {
+    "MO": "0,00 €",
+    "KARL": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Pssst. Kunden.",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "close-up",
+   "action": "Karl putting a finger on his lips, a customer in the background",
+   "motion": "finger to his lips",
+   "tag": "[deadpan]",
+   "displays": {
+    "KARL": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "MO",
+   "text": "Du hast mein Geld geklaut?!",
+   "cast": [
+    "MO"
+   ],
+   "camera": "close-up",
+   "action": "Mo outraged",
+   "motion": "he slams the counter",
+   "displays": {
+    "MO": "0,00 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Ich hab dein Geld versteckt. Bevor du irgendwas unterschreibst.",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "close-up",
+   "action": "Karl calm, holding the contract folder",
+   "motion": "he taps the folder",
+   "tag": "[deadpan]",
+   "displays": {
+    "KARL": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "MO",
+   "text": "Und was hab ich dann unterschrieben?",
+   "cast": [
+    "MO"
+   ],
+   "camera": "close-up",
+   "action": "Mo confused",
+   "motion": "he scratches his head",
+   "displays": {
+    "MO": "0,00 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Ein leeres Konto. Und ein Hamster-Abo.",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "close-up",
+   "action": "Karl deadpan",
+   "motion": "no expression",
+   "tag": "[deadpan]",
+   "displays": {
+    "KARL": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "MO",
+   "text": "Ein Hamster-Abo?!",
+   "cast": [
+    "MO"
+   ],
+   "camera": "close-up",
+   "action": "Mo bursting out laughing",
+   "motion": "he starts laughing",
+   "displays": {
+    "MO": "0,00 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Für Jessy. Sie wollte doch einen.",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "close-up",
+   "action": "Karl with a tiny smirk",
+   "motion": "tiny smirk",
+   "tag": "[deadpan]",
+   "displays": {
+    "KARL": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "MO",
+   "text": "Karl… du bist ein Genie.",
+   "cast": [
+    "MO"
+   ],
+   "camera": "medium close-up",
+   "action": "Mo looking at Karl in awe",
+   "motion": "he grabs Karl's shoulders",
+   "displays": {
+    "MO": "0,00 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Ich weiß.",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "close-up",
+   "action": "Karl deadpan",
+   "motion": "he nods once",
+   "tag": "[deadpan]",
+   "displays": {
+    "KARL": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "MO",
+   "text": "Aber die zwei sind noch frei. Mit meiner Yacht!",
+   "cast": [
+    "MO"
+   ],
+   "camera": "medium shot",
+   "action": "Mo pointing at the TV showing the yacht",
+   "motion": "he points angrily at the TV",
+   "displays": {
+    "MO": "0,00 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Dann holen wir sie zurück.",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "slow push-in close-up",
+   "action": "Karl taking off his apron",
+   "motion": "he takes off his apron",
+   "tag": "[deadpan]",
+   "displays": {
+    "KARL": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Kleb dir das auf die Stirn.",
+   "cast": [
+    "KARL",
+    "MO"
+   ],
+   "camera": "close-up on hands",
+   "action": "Karl handing Mo a glowing LED sticker showing 500.000.000 €",
+   "motion": "he peels off the sticker backing",
+   "tag": "[deadpan]"
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "MO",
+   "text": "Fünfhundert Millionen?! Das ist ein Aufkleber!",
+   "cast": [
+    "MO"
+   ],
+   "camera": "close-up",
+   "action": "Mo with the sticker on his forehead showing 500.000.000 €, slightly crooked",
+   "motion": "he presses the sticker on",
+   "displays": {
+    "MO": "500.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Für Jessy reicht das.",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "close-up",
+   "action": "Karl deadpan",
+   "motion": "he shrugs",
+   "tag": "[deadpan]",
+   "displays": {
+    "KARL": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "MO",
+   "text": "Leute! Ich hab nochmal gewonnen! Fünfhundert Millionen!",
+   "cast": [
+    "MO"
+   ],
+   "camera": "selfie angle, phone camera view",
+   "action": "Mo filming himself live in front of the kiosk, pointing at his forehead 500.000.000 €",
+   "motion": "he films himself and points at the sticker",
+   "displays": {
+    "MO": "500.000.000 €"
+   }
+  },
+  {
+   "loc": "YACHT",
+   "speaker": "JESSY",
+   "text": "Fünfhundert Millionen?! Wende das Boot!",
+   "cast": [
+    "JESSY",
+    "LILA"
+   ],
+   "camera": "two-shot",
+   "action": "Jessy staring at her phone showing Mo's live video, the banker at the wheel",
+   "motion": "she screams at the banker, he spins the wheel"
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "JESSY",
+   "text": "Mo, Schatz! Ich hab dich so vermisst!",
+   "cast": [
+    "JESSY",
+    "MO"
+   ],
+   "camera": "medium shot",
+   "action": "Jessy running toward Mo in the rain in front of the kiosk",
+   "motion": "she runs in slow motion with open arms",
+   "displays": {
+    "MO": "500.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "MO",
+   "text": "Und dein Hamster?",
+   "cast": [
+    "MO"
+   ],
+   "camera": "close-up",
+   "action": "Mo with crossed arms",
+   "motion": "he crosses his arms",
+   "displays": {
+    "MO": "500.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "JESSY",
+   "text": "Welcher Hamster?",
+   "cast": [
+    "JESSY"
+   ],
+   "camera": "close-up",
+   "action": "Jessy smiling innocently",
+   "motion": "she blinks innocently"
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "LILA",
+   "text": "Herr Mo! Ein neuer Vertrag. Mit noch besseren Konditionen.",
+   "cast": [
+    "LILA",
+    "MO"
+   ],
+   "camera": "medium shot",
+   "action": "the banker arriving with a new contract and the gold pen",
+   "motion": "he holds out the pen",
+   "displays": {
+    "MO": "500.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Darf ich? Seite zwei: „Alles gehört Doktor Lila.“ Seite drei: „Wirklich alles.“",
+   "cast": [
+    "KARL",
+    "LILA"
+   ],
+   "camera": "two-shot",
+   "action": "Karl reading the contract aloud, the banker sweating",
+   "motion": "he flips the pages calmly",
+   "tag": "[deadpan]"
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "LILA",
+   "text": "Das ist… Standard.",
+   "cast": [
+    "LILA"
+   ],
+   "camera": "close-up",
+   "action": "the banker sweating, forced smile",
+   "motion": "he loosens his tie"
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "ZITRONE",
+   "text": "Polizei. Doktor Lila, Sie sind festgenommen. Wegen Betrug.",
+   "cast": [
+    "ZITRONE",
+    "LILA"
+   ],
+   "camera": "medium shot",
+   "action": "the lemon police officer stepping out of a police car with blue lights",
+   "motion": "she flashes her badge, blue lights flash"
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "LILA",
+   "text": "Auf welcher Grundlage?!",
+   "cast": [
+    "LILA"
+   ],
+   "camera": "close-up",
+   "action": "the banker outraged",
+   "motion": "he throws up his hands"
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "ZITRONE",
+   "text": "Ihre Stirn.",
+   "cast": [
+    "ZITRONE",
+    "LILA"
+   ],
+   "camera": "close-up on the banker's forehead display flickering from 980.000 € to -3.200.000 €",
+   "action": "the lemon officer pointing at the banker's forehead",
+   "motion": "his display glitches and drops to -3.200.000 €",
+   "displays": {
+    "LILA": "-3.200.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "JESSY",
+   "text": "Minus drei Millionen?! Du hast gesagt, du bist reich!",
+   "cast": [
+    "JESSY",
+    "LILA"
+   ],
+   "camera": "two-shot",
+   "action": "Jessy hitting the banker with her handbag",
+   "motion": "she swings her handbag at him",
+   "displays": {
+    "LILA": "-3.200.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "LILA",
+   "text": "Ich hab gesagt, ich wirke reich.",
+   "cast": [
+    "LILA"
+   ],
+   "camera": "close-up",
+   "action": "the banker in handcuffs",
+   "motion": "he shrugs in handcuffs",
+   "displays": {
+    "LILA": "-3.200.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "ZITRONE",
+   "text": "Sie auch, Fräulein. Beihilfe.",
+   "cast": [
+    "ZITRONE",
+    "JESSY"
+   ],
+   "camera": "medium shot",
+   "action": "the officer putting handcuffs on Jessy",
+   "motion": "handcuffs click"
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "JESSY",
+   "text": "Mo! Hilf mir!",
+   "cast": [
+    "JESSY"
+   ],
+   "camera": "close-up",
+   "action": "Jessy being led to the police car",
+   "motion": "she looks back desperately"
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "MO",
+   "text": "Sorry. Mein Hamster hat Geburtstag.",
+   "cast": [
+    "MO"
+   ],
+   "camera": "close-up",
+   "action": "Mo waving goodbye with a smirk, peeling off the sticker",
+   "motion": "he waves and peels off the sticker",
+   "displays": {
+    "MO": "0,00 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Hier. Achtundvierzig Millionen. Zurück auf deine Stirn.",
+   "cast": [
+    "KARL",
+    "MO"
+   ],
+   "camera": "medium two-shot inside the kiosk",
+   "action": "Karl tapping his phone, the 48.000.000 € flying from his forehead back to Mo's forehead",
+   "motion": "the numbers fly from Karl's forehead to Mo's",
+   "tag": "[deadpan]",
+   "displays": {
+    "MO": "48.000.000 €",
+    "KARL": "2.300 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "MO",
+   "text": "Warum hast du das Geld nicht einfach behalten?",
+   "cast": [
+    "MO"
+   ],
+   "camera": "close-up",
+   "action": "Mo looking at Karl, emotional",
+   "motion": "he looks at Karl",
+   "displays": {
+    "MO": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Würdest du's behalten?",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "close-up",
+   "action": "Karl calm",
+   "motion": "he looks back",
+   "tag": "[deadpan]"
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "MO",
+   "text": "…Ja, schon.",
+   "cast": [
+    "MO"
+   ],
+   "camera": "close-up",
+   "action": "Mo honest and awkward",
+   "motion": "awkward pause, he nods",
+   "displays": {
+    "MO": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Eben.",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "close-up",
+   "action": "Karl with a small smile",
+   "motion": "small smile",
+   "tag": "[deadpan]"
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KALLE",
+   "text": "Mo, mein Junge! Dein Lieblingsonkel ist wieder da!",
+   "cast": [
+    "KALLE"
+   ],
+   "camera": "medium shot",
+   "action": "the coconut uncle bursting through the kiosk door",
+   "motion": "he bursts in with open arms"
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Nein.",
+   "cast": [
+    "KARL",
+    "MO"
+   ],
+   "camera": "two-shot",
+   "action": "Mo and Karl turning to the uncle at the same time",
+   "motion": "both turn their heads in sync",
+   "tag": "[deadpan]",
+   "displays": {
+    "MO": "48.000.000 €"
+   }
+  }
+ ]
+}

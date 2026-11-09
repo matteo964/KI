@@ -1,0 +1,468 @@
+{
+ "title": "Der Lottoschein – Teil 1",
+ "series": "../serie.json",
+ "shots": [
+  {
+   "loc": "KIOSK",
+   "speaker": "MO",
+   "text": "Karl… Karl! Schau dir meine Stirn an!",
+   "cast": [
+    "MO",
+    "KARL"
+   ],
+   "camera": "medium two-shot across the counter",
+   "action": "Mo holding a lottery ticket with shaking hands, his forehead display jumping from 12,40 € to 48.000.000 €, Karl behind the counter bored",
+   "motion": "Mo's forehead numbers spin wildly upward, he stares at the ticket and shouts",
+   "displays": {
+    "MO": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Achtundvierzig Millionen.",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "close-up",
+   "action": "Karl chewing gum, looking at Mo's forehead completely unimpressed",
+   "motion": "he blinks slowly and speaks without moving his face",
+   "tag": "[deadpan]"
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "MO",
+   "text": "ACHTUNDVIERZIG MILLIONEN!",
+   "cast": [
+    "MO"
+   ],
+   "camera": "low-angle close-up",
+   "action": "Mo screaming with joy, hands on his head, forehead display 48.000.000 € glowing",
+   "motion": "he jumps and screams, snacks fall off the shelf behind him",
+   "displays": {
+    "MO": "48.000.000 €",
+    "MO_RICH": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Hab ich doch gesagt.",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "close-up",
+   "action": "Karl leaning on the counter",
+   "motion": "he shrugs one shoulder",
+   "tag": "[deadpan]"
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "MO",
+   "text": "Ich hab im Lotto gewonnen, Bruder! Ich bin reich!",
+   "cast": [
+    "MO",
+    "KARL"
+   ],
+   "camera": "medium shot",
+   "action": "Mo hugging Karl over the counter, Karl not hugging back",
+   "motion": "Mo squeezes Karl, Karl stays stiff like a board",
+   "displays": {
+    "MO": "48.000.000 €",
+    "MO_RICH": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Glückwunsch. Zahlst du jetzt deine Cola?",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "close-up",
+   "action": "Karl holding up a single can of cola",
+   "motion": "he slides the cola can forward",
+   "tag": "[deadpan]"
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "MO",
+   "text": "Ich kauf dir den ganzen Kiosk!",
+   "cast": [
+    "MO"
+   ],
+   "camera": "medium close-up",
+   "action": "Mo pointing around the kiosk with both arms wide",
+   "motion": "he spins around pointing at everything",
+   "displays": {
+    "MO": "48.000.000 €",
+    "MO_RICH": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "KIOSK",
+   "speaker": "KARL",
+   "text": "Der Kiosk gehört mir nicht.",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "close-up",
+   "action": "Karl deadpan",
+   "motion": "he says it flatly",
+   "tag": "[deadpan]"
+  },
+  {
+   "loc": "STRASSE",
+   "speaker": "MO",
+   "text": "Warum stehen so viele Leute vor meiner Tür?",
+   "cast": [
+    "MO",
+    "KARL"
+   ],
+   "camera": "wide shot",
+   "action": "Mo and Karl staring at a huge crowd of fruit-headed people with phones in front of the run-down apartment block",
+   "motion": "slow push-in on the crowd, people wave and film",
+   "displays": {
+    "MO": "48.000.000 €",
+    "MO_RICH": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "STRASSE",
+   "speaker": "KARL",
+   "text": "Rate mal.",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "close-up",
+   "action": "Karl with hands in his hoodie pockets",
+   "motion": "he glances sideways at Mo",
+   "tag": "[deadpan]"
+  },
+  {
+   "loc": "STRASSE",
+   "speaker": "KALLE",
+   "text": "Mo, mein Junge! Dein Lieblingsonkel ist da!",
+   "cast": [
+    "KALLE",
+    "MO"
+   ],
+   "camera": "medium shot",
+   "action": "the coconut uncle pushes through the crowd with open arms toward Mo",
+   "motion": "he runs in with open arms and a huge gold-tooth grin",
+   "displays": {
+    "MO": "48.000.000 €",
+    "MO_RICH": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "STRASSE",
+   "speaker": "MO",
+   "text": "Ich hab keinen Onkel.",
+   "cast": [
+    "MO"
+   ],
+   "camera": "close-up",
+   "action": "Mo confused, leaning back",
+   "motion": "he leans away suspiciously",
+   "displays": {
+    "MO": "48.000.000 €",
+    "MO_RICH": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "STRASSE",
+   "speaker": "KALLE",
+   "text": "Jetzt schon.",
+   "cast": [
+    "KALLE"
+   ],
+   "camera": "close-up",
+   "action": "the coconut uncle winking, forehead display -250.000 € glowing",
+   "motion": "he winks and grins"
+  },
+  {
+   "loc": "STRASSE",
+   "speaker": "KARL",
+   "text": "Schau auf seine Stirn. Minus zweihundertfünfzigtausend.",
+   "cast": [
+    "KARL",
+    "KALLE"
+   ],
+   "camera": "two-shot",
+   "action": "Karl pointing at the uncle's forehead display -250.000 €",
+   "motion": "he points lazily at the uncle's forehead, the uncle covers it with his hand",
+   "tag": "[deadpan]"
+  },
+  {
+   "loc": "STRASSE",
+   "speaker": "JESSY",
+   "text": "Mo… ich hab dich nie vergessen.",
+   "cast": [
+    "JESSY",
+    "MO"
+   ],
+   "camera": "medium two-shot",
+   "action": "the cherry ex-girlfriend steps out of the crowd and touches Mo's chest sweetly",
+   "motion": "she flutters her eyelashes and smiles",
+   "displays": {
+    "MO": "48.000.000 €",
+    "MO_RICH": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "STRASSE",
+   "speaker": "MO",
+   "text": "Jessy? Du hast per Sprachnachricht mit mir Schluss gemacht!",
+   "cast": [
+    "MO",
+    "JESSY"
+   ],
+   "camera": "medium shot",
+   "action": "Mo pointing at Jessy, shocked",
+   "motion": "he steps back and points at her",
+   "displays": {
+    "MO": "48.000.000 €",
+    "MO_RICH": "48.000.000 €"
+   }
+  },
+  {
+   "loc": "STRASSE",
+   "speaker": "JESSY",
+   "text": "Ich war jung.",
+   "cast": [
+    "JESSY"
+   ],
+   "camera": "close-up",
+   "action": "Jessy tilting her head innocently",
+   "motion": "she twirls her leaf like a strand of hair"
+  },
+  {
+   "loc": "STRASSE",
+   "speaker": "KARL",
+   "text": "Minus vierzehntausend.",
+   "cast": [
+    "KARL",
+    "JESSY"
+   ],
+   "camera": "close-up on Jessy's forehead display -14.000 €, Karl in the foreground",
+   "action": "Karl reading Jessy's forehead",
+   "motion": "rack focus from Karl to Jessy's forehead",
+   "tag": "[deadpan]"
+  },
+  {
+   "loc": "STRASSE",
+   "speaker": "JESSY",
+   "text": "Hör auf, auf meine Stirn zu gucken!",
+   "cast": [
+    "JESSY"
+   ],
+   "camera": "close-up",
+   "action": "Jessy covering her forehead with her designer bag",
+   "motion": "she hides her forehead angrily"
+  },
+  {
+   "loc": "PENTHOUSE",
+   "speaker": "MO",
+   "text": "Willkommen in meinem Penthouse! Mit Pool! Im Wohnzimmer!",
+   "cast": [
+    "MO_RICH",
+    "KARL"
+   ],
+   "camera": "wide shot",
+   "action": "Mo in his new rich outfit presenting the pool in the living room, Karl standing next to him in his kiosk apron",
+   "motion": "Mo spreads his arms, camera sweeps over the pool and skyline"
+  },
+  {
+   "loc": "PENTHOUSE",
+   "speaker": "KARL",
+   "text": "Warum ist der Pool im Wohnzimmer?",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "close-up",
+   "action": "Karl looking at the pool",
+   "motion": "he tilts his head slightly",
+   "tag": "[deadpan]"
+  },
+  {
+   "loc": "PENTHOUSE",
+   "speaker": "MO",
+   "text": "Weil ich es kann!",
+   "cast": [
+    "MO_RICH"
+   ],
+   "camera": "low-angle medium shot",
+   "action": "Mo posing proudly with sunglasses",
+   "motion": "he puts on sunglasses dramatically"
+  },
+  {
+   "loc": "PENTHOUSE",
+   "speaker": "KARL",
+   "text": "Du kannst nicht schwimmen.",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "close-up",
+   "action": "Karl deadpan",
+   "motion": "no reaction at all",
+   "tag": "[deadpan]"
+  },
+  {
+   "loc": "PENTHOUSE",
+   "speaker": "MO",
+   "text": "…Dann kauf ich mir einen Schwimmlehrer.",
+   "cast": [
+    "MO_RICH"
+   ],
+   "camera": "medium close-up",
+   "action": "Mo pausing, then pointing a finger up with an idea",
+   "motion": "he freezes, then raises a finger"
+  },
+  {
+   "loc": "PARTY",
+   "speaker": "LILA",
+   "text": "Herr Mo. Doktor Lila, Vermögensberater. Ihr Geld verdient eine Familie.",
+   "cast": [
+    "LILA",
+    "MO_RICH"
+   ],
+   "camera": "medium two-shot",
+   "action": "the eggplant banker shakes Mo's hand at the party, perfect smile",
+   "motion": "he shakes Mo's hand too long, smile sparkles"
+  },
+  {
+   "loc": "PARTY",
+   "speaker": "MO",
+   "text": "Mein Geld hat jetzt eine Familie?",
+   "cast": [
+    "MO_RICH"
+   ],
+   "camera": "close-up",
+   "action": "Mo confused but flattered",
+   "motion": "he scratches his head and smiles"
+  },
+  {
+   "loc": "PARTY",
+   "speaker": "LILA",
+   "text": "Unterschreiben Sie hier, und Ihre Millionen arbeiten für Sie.",
+   "cast": [
+    "LILA"
+   ],
+   "camera": "close-up",
+   "action": "the banker opening a thick contract folder and holding out a gold pen",
+   "motion": "he clicks the gold pen and slides the folder"
+  },
+  {
+   "loc": "PARTY",
+   "speaker": "KARL",
+   "text": "Lies das erst.",
+   "cast": [
+    "KARL",
+    "MO_RICH"
+   ],
+   "camera": "two-shot",
+   "action": "Karl in his kiosk apron among party guests, holding a cola",
+   "motion": "he leans in to Mo",
+   "tag": "[deadpan]"
+  },
+  {
+   "loc": "PARTY",
+   "speaker": "MO",
+   "text": "Bro, das sind dreißig Seiten. Mach du den Papierkram, ich hab Party.",
+   "cast": [
+    "MO_RICH",
+    "KARL"
+   ],
+   "camera": "medium shot",
+   "action": "Mo pushing the folder into Karl's hands and dancing away",
+   "motion": "he hands Karl the folder and dances off"
+  },
+  {
+   "loc": "PARTY",
+   "speaker": "KARL",
+   "text": "…Okay.",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "close-up",
+   "action": "Karl holding the folder, looking at the banker suspiciously",
+   "motion": "he slowly looks from the folder to the banker",
+   "tag": "[deadpan]"
+  },
+  {
+   "loc": "PARTY",
+   "speaker": "JESSY",
+   "text": "Schatz, unterschreib einfach diese eine Seite. Für uns.",
+   "cast": [
+    "JESSY",
+    "MO_RICH"
+   ],
+   "camera": "medium two-shot",
+   "action": "Jessy pulls a single page from her handbag and hands Mo the gold pen",
+   "motion": "she whispers into his ear and gives him the pen"
+  },
+  {
+   "loc": "PARTY",
+   "speaker": "MO",
+   "text": "Für uns?",
+   "cast": [
+    "MO_RICH"
+   ],
+   "camera": "close-up",
+   "action": "Mo blushing, signing the page",
+   "motion": "he signs with a big flourish"
+  },
+  {
+   "loc": "PARTY",
+   "speaker": "KARL",
+   "text": "Mo! Nein! Nicht!",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "medium shot",
+   "action": "Karl dropping his cola across the room",
+   "motion": "his cola can falls in slow motion",
+   "tag": "[urgent]"
+  },
+  {
+   "loc": "PARTY",
+   "speaker": "LILA",
+   "text": "Vielen Dank, Herr Mo. Es war mir ein Vergnügen.",
+   "cast": [
+    "LILA",
+    "JESSY"
+   ],
+   "camera": "medium shot",
+   "action": "the banker taking the signed page from Jessy, both smiling at each other",
+   "motion": "they exchange a quick secret glance and smile"
+  },
+  {
+   "loc": "PARTY",
+   "speaker": "MO",
+   "text": "Karl… warum zählt meine Stirn rückwärts?!",
+   "cast": [
+    "MO_RICH"
+   ],
+   "camera": "extreme close-up on Mo's forehead display counting down from 48.000.000 €",
+   "action": "Mo panicking, eyes huge",
+   "motion": "the forehead numbers rapidly count down, party lights flicker",
+   "displays": {
+    "MO_RICH": "31.540.000 €"
+   }
+  },
+  {
+   "loc": "PARTY",
+   "speaker": "KARL",
+   "text": "Weil du gerade alles überschrieben hast an…",
+   "cast": [
+    "KARL"
+   ],
+   "camera": "slow push-in close-up",
+   "action": "Karl looking dead serious for the first time",
+   "motion": "slow push-in, the music cuts",
+   "tag": "[deadpan]"
+  }
+ ],
+ "end_text": "Teil 2…"
+}

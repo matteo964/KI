@@ -1,0 +1,68 @@
+{
+  "series_title": "Der Lottoschein",
+  "style": "Cinematic 3D animated movie still, Pixar-meets-photoreal style, highly detailed skin and fabric textures, dramatic warm golden lighting, dark luxury color palette (black, burgundy, gold), shallow depth of field, anthropomorphic fruit- and vegetable-headed characters, vertical 9:16 composition, no text except the glowing forehead displays",
+  "voice_tempo": 1.1,
+  "music": {
+    "track": "Batida Funk Medley (TikTok-Sound), ab 0:11",
+    "start_s": 11,
+    "description": "Brazilian funk / batida beat, about 130 BPM, punchy tamborzão drums, deep 808 bass, playful and confident, no vocals",
+    "gain_db": -5
+  },
+  "characters": {
+    "MO": {
+      "name": "Mo (Mandarine)",
+      "display": "12,40 €",
+      "prompt": "a skinny young man in his twenties whose entire head is a shiny orange mandarin with a small green leaf and stem on top, dimpled peel texture, big hopeful brown eyes, expressive eyebrows, a red glowing digital LED display embedded in his forehead showing \"{display}\", wearing a worn faded orange hoodie, grey sweatpants and old white sneakers",
+      "voice": {"library": "h1IssowVS2h4nL5ZbkkK", "premade": "TX3LPaxmHKxFdv7VOQHJ", "model": "eleven_multilingual_v2", "name": "The Fox"},
+      "voice_note": "aufgeregt, ungläubig, schnell (Stimme B aus dem Vergleich)"
+    },
+    "MO_RICH": {
+      "name": "Mo – reiches Outfit (gleiche Stimme wie Mo)",
+      "display": "48.000.000 €",
+      "prompt": "a skinny young man in his twenties whose entire head is a shiny orange mandarin with a small green leaf and stem on top, dimpled peel texture, big excited brown eyes, a red glowing digital LED display embedded in his forehead showing \"{display}\", wearing a white designer tracksuit, a thick gold chain, a gold watch and brand-new white sneakers",
+      "voice": null
+    },
+    "KARL": {
+      "name": "Karl (Gurke)",
+      "display": "2.300 €",
+      "prompt": "a tall calm young man whose entire head is a long bumpy green cucumber, half-closed bored eyes, flat unimpressed mouth, a red glowing digital LED display embedded in his forehead showing \"{display}\", wearing a black beanie, a black hoodie and a dark green kiosk apron",
+      "voice": {"library": "he4iF6V8tdCa0FGloXxE", "premade": "pNInz6obpgDQGcFmaJgB", "model": "eleven_v3", "name": "Heiner"},
+      "voice_note": "tief, trocken, monoton (Stimme A aus dem Vergleich)"
+    },
+    "JESSY": {
+      "name": "Jessy (Kirsche, Ex-Freundin)",
+      "display": "-14.000 €",
+      "prompt": "a glamorous young woman whose entire head is a glossy dark red cherry with a stem and a green leaf on top like a hair accessory, long eyelashes, glossy lips, a red glowing digital LED display on her forehead showing \"{display}\", wearing a tight pink designer dress, oversized sunglasses pushed up, a flashy designer handbag and high heels",
+      "voice": {"library": "DEZHhPbmb8LVZmWufkCh", "premade": "cgSgspJ2msm6clMCkdW9", "model": "eleven_multilingual_v2", "name": "Anna"},
+      "voice_note": "frech, zuckersüß gespielt (Stimme B aus dem Lara-Vergleich)"
+    },
+    "LILA": {
+      "name": "Dr. Lila (Aubergine, Vermögensberater)",
+      "display": "980.000 €",
+      "prompt": "a slick middle-aged man whose entire head is a glossy purple eggplant with the green calyx on top styled like slicked-back hair, thin moustache, too-perfect white smile, gold-rimmed glasses, a red glowing digital LED display on his forehead showing \"{display}\", wearing a navy pinstripe suit, burgundy tie, gold cufflinks, carrying a black leather briefcase",
+      "voice": {"library": "aZQ0ZrBshbMCU6TJwtuk", "premade": "cjVigY5qzO86Huf0OWal", "model": "eleven_multilingual_v2", "name": "Wolfgang"},
+      "voice_note": "glatt, selbstsicher, Verkäufer"
+    },
+    "KALLE": {
+      "name": "Onkel Kalle (Kokosnuss)",
+      "display": "-250.000 €",
+      "prompt": "a loud chubby man in his fifties whose entire head is a hairy brown coconut, huge grin with a gold tooth, a red glowing digital LED display on his forehead showing \"{display}\", wearing a loud Hawaiian shirt, a fake gold chain, cargo shorts and flip flops",
+      "voice": {"library": "DQ4rTqXxHr077oQgsA9D", "premade": "CwhRBWXzGAHq8TQ4Fs17", "model": "eleven_multilingual_v2", "name": "DiMario"},
+      "voice_note": "laut, aufdringlich, gespielt herzlich"
+    },
+    "ZITRONE": {
+      "name": "Kommissarin Zitrone",
+      "display": "4.100 €",
+      "prompt": "a strict woman in her forties whose entire head is a bright yellow lemon, sharp narrow eyes, a red glowing digital LED display on her forehead showing \"{display}\", wearing a dark navy police uniform with a gold badge",
+      "voice": {"library": "coPfQIqaxowKv5u2s2bV", "premade": "XrExE9yKIg1WjnnlVkGX", "model": "eleven_multilingual_v2", "name": "Johanna"},
+      "voice_note": "kühl, bestimmt"
+    }
+  },
+  "locations": {
+    "KIOSK": "small cramped late-night German kiosk with neon light, shelves full of snacks and drinks, a glowing LOTTO sign in the window, rainy street outside",
+    "STRASSE": "front of a run-down grey apartment block in the morning, a crowd of curious fruit-headed people with phones gathered at the door",
+    "PENTHOUSE": "huge luxury penthouse at night with floor-to-ceiling windows over a glowing city skyline, a turquoise pool built right into the living room, gold and black marble interior",
+    "PARTY": "the same luxury penthouse during a wild party, purple and gold party lights, champagne towers, many dancing fruit-headed guests",
+    "YACHT": "deck of a huge white superyacht on a dark sea at sunset, white leather lounge, champagne bucket, laptop on a table"
+  }
+}
