@@ -85,3 +85,20 @@ Du willst wirklich mit meiner Schwester zusammen sein? – Ja! – Gut, dann kom
 
 Was ist mit dir passiert? – Ich glaube, ich habe dein Blatt gegessen. Schau dir meine Arme an. – Du hast meine Blätter gegessen, während ich geschlafen habe? – Mit deinen Blättern wird sich niemand über mich lustig machen. – Aber sie sind Teil von mir. – Nur eins. … Gestern warst du noch ein Lauch. – Nur ein Blatt, und staune über die Ergebnisse. 200. Geheimrezept. … Wir haben 1 Mio. Euro Umsatz erreicht. … Du hast mir versprochen, dass du mir nicht wehtust. Ich habe nichts von mir übrig. – Dann ruh dich aus. … Und? Macht deine Frau das alles mit? – Welche Frau? Diese Topfpflanze macht nichts außer winseln. … Sobald ich ihr letztes Blatt genommen habe, habe ich keine Verwendung mehr für sie. … Mein letztes Blatt. Du wirst es bereuen, mich so behandelt zu haben. → „Teil 2…“
 </details>
+
+---
+
+## 5. Story-Formel (aus allen 5 Referenzen, v. a. Serie @karolyhe Teil 1+2)
+
+**Die Referenzen sind Dramen mit Gerechtigkeits-Kern, keine Sitcoms.** Witze gibt es nur 1–2 pro Teil (z. B. „Trägt er seit der Geburt eine Schutzweste?“, „Er hat eine zu dünne Haut.“ als Frucht-Wortspiel im emotionalen Höhepunkt).
+
+1. **Hook in Zeile 1 = Machtkonflikt.** „Ausweis.“ – „Weißt du, wer ich bin?“. Ein arroganter Mächtiger (Sohn vom Bürgermeister) trifft auf einen ruhigen „Niemand“ (Türsteher), der sich nicht beugt und nicht bestechen lässt.
+2. **Öffentliche Demütigung** des Arroganten → „Das wirst du noch bereuen.“
+3. **Eskalationsleiter:** Sohn → Vater („Niemand stellt meinen Sohn bloß.“) → Chef des Underdogs („Entlassen Sie ihn.“ – „Das kann ich nicht.“) → Schläger → Ermittler. Jede Stufe scheitert. Der Underdog sagt wenig und gewinnt jede Szene („Er hätte gleich seine ganze Armee schicken sollen.“).
+4. **Mystery-Krümel:** „Dieser Mann ist kein gewöhnlicher Wachmann.“, „Du hast keine Ahnung, mit wem du dich anlegst.“
+5. **Cliffhanger Teil 1:** geheime Akte → „Nein, das kann nicht sein. Er ist…“ (Schnitt mitten im Satz).
+6. **Teil 2 startet in derselben Szene**, die Mächtigen kennen sich: „Lange nicht gesehen.“ – „Noch nicht lange genug.“ Beweisstücke statt Erklärungen (Foto „Banane 1999“, verbrannte Akte, heimlicher Anruf: „Er ist zurück. Stell sicher, dass keiner die Wahrheit erfährt.“).
+7. **Familien-Geheimnis als Twist** (versteckter Sohn/Adoption), emotional gespielt, mit Frucht-Wortspiel als Begründung.
+8. **Neue Bedrohung am Ende** (Rauch/Angriff, der Underdog beschützt die Familie) → nächster Teil.
+
+**Warum „Der Lottoschein“ nicht funktioniert hat:** Es war eine Gag-Sitcom mit naivem Helden und kleinen Betrügern. Es fehlten ein Machtgefälle, Demütigung mit Rache-Erwartung, ein ruhiger übermächtiger Underdog, ein echtes Geheimnis und emotionale Fallhöhe.

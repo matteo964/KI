@@ -15,15 +15,20 @@ Grundlage: `REFERENZ_ANALYSE.md` (5 analysierte Referenzen). Pipeline: `tools/bu
 - Keine Untertitel, kein Outro, kein Wasserzeichen (das setzt TikTok beim Download selbst). Beim Upload das KI-Label setzen.
 - Musik: **„Batida Funk Medley“ ab 0:11**, etwa 5 dB unter den Stimmen. Am besten in der TikTok-App als Sound hinzufügen (Originalton 100 %, Sound 25–30 %). Liegt `music.mp3` im Ordner, mischt `assemble` selbst ab `start_s`.
 
-## 2. Mehrteiler (Referenzen @karolyhe)
+## 2. Story-Formel (Pflicht, siehe REFERENZ_ANALYSE.md Abschnitt 5)
+Drama mit Gerechtigkeits-Kern, **keine Gag-Sitcom** (max. 1–2 Witze pro Teil, bevorzugt ein Frucht-Wortspiel im emotionalen Moment).
+Arroganter Mächtiger demütigt einen ruhigen „Niemand“ bzw. wird von ihm gedemütigt → „Das wirst du bereuen“ → Eskalationsleiter (Sohn → Vater → Chef → Schläger → Ermittler), jede Stufe scheitert → Mystery-Krümel („kein gewöhnlicher …“) → geheime Wahrheit (Identität/Familie/Vergangenheit) als Cliffhanger → Teil 2 mit Beweisstücken (Foto mit Name+Jahr, verbrannte Akte, heimlicher Anruf) → emotionaler Twist → neue Bedrohung.
+Der Underdog spricht wenig, bleibt ruhig und gewinnt jede Szene. Vor dem Erzeugen der Stimmen dem Creator die Story als kurzen Pitch vorlegen.
+
+## 3. Mehrteiler (Referenzen @karolyhe)
 - **Teil 1:** Konflikt in den ersten 2 s, Eskalation, endet **mitten im Satz** auf einer Enthüllung („…überschrieben an…“).
 - **Teil 2/3:** setzt **in derselben Sekunde** wieder ein (erste Zeile beantwortet bzw. wiederholt den Cliffhanger), keine Zusammenfassung. Jedes Ende bringt einen neuen Twist. Das Finale löst alles auf und endet mit einem Gag.
 - Setups in Teil 1 pflanzen, die erst in Teil 2/3 zünden.
 - `"end_text": "Teil 2…"` im story.json blendet den Text im letzten Shot ein.
 - Gemeinsame Figuren, Orte, Stil und Musik in `videos/<serie>/serie.json`, jeder Teil verweist mit `"series": "../serie.json"` darauf.
-- Thema immer **eigenständig**, nicht von den Referenz-Creatorn kopieren. Schon verwendet: Schwiegervater-Test (01), Lottoschein (02).
+- Thema immer **eigenständig**, nicht von den Referenz-Creatorn kopieren. Schon verwendet: Schwiegervater-Test (01), Lottoschein (02, vom Creator abgelehnt: zu sitcom-artig).
 
-## 3. Stimmen (vom Creator abgenommen, nicht ändern ohne Rückfrage)
+## 4. Stimmen (vom Creator abgenommen, nicht ändern ohne Rückfrage)
 ElevenLabs-Library-Stimmen (brauchen mindestens den Creator-Tarif). Das Modell pro Figur über `"model"` in `voice` setzen.
 
 | Rolle | Stimme | voice_id | Modell |
@@ -38,7 +43,7 @@ ElevenLabs-Library-Stimmen (brauchen mindestens den Creator-Tarif). Das Modell p
 - Zahlen im Text **ausschreiben** („Achtundvierzig Millionen“), Abkürzungen ausschreiben („Doktor“ statt „Dr.“).
 - `voice_tempo: 1.1` beschleunigt die Stimmen (Tonhöhe bleibt), Stille an den Enden wird gekappt, innere Pausen auf 0,2 s gekürzt.
 
-## 4. Ablauf
+## 5. Ablauf
 ```bash
 # 1. Serie/Teil anlegen: serie.json (Figuren, Orte) + teilN/story.json (Shots)
 python3 tools/build.py docs     videos/<serie>/teil1   # SKRIPT.md + SHOTLIST.md (Bild- und Animations-Prompts)
