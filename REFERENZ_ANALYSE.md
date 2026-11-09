@@ -15,7 +15,7 @@ Analysiert: 3 Referenzvideos (Hochformat 9:16, 30 fps, 70–89 s). Einzelbilder 
 | **Schnitt** | Neuer Clip alle **2–4 s**, im Schnitt ein Clip pro Dialogzeile. Jeder Clip ist ein animiertes KI-Bild (Bild → Video, 3–6 s, leichte Kamerafahrt plus Mimik/Lippenbewegung). |
 | **Kamera** | Wechsel zwischen Totale (alle Figuren) und Nah/Groß auf den Sprecher. Wichtige Reaktionen in Nahaufnahme. |
 | **Text im Bild** | **Keine Untertitel.** Text nur im Bild selbst (Stirn-Zahl, Kartenterminal „ZAHLUNG GENEHMIGT 3,50 €“, Preisschilder). Optional am Ende „Teil 2…“ (weiße Schrift, schwarzer Rand, Bildmitte). |
-| **Outro** | 2–3 s TikTok-Endkarte: dunkles Navy (#0F111A), TikTok-Logo, Suchleiste mit `@kanalname` (Standard-Endkarte beim TikTok-Export). |
+| **Outro / Wasserzeichen** | Gehört **nicht** zur Produktion: Das „TikTok @kanal“-Wasserzeichen und die Endkarte setzt TikTok beim Herunterladen automatisch dazu. „AI-generated“ ist TikToks KI-Label (beim Hochladen „KI-generierte Inhalte“ aktivieren). Wir laden das Video ohne Outro hoch. |
 | **Sprache** | Deutsch, Umgangssprache/Jugendsprache („Digger“, „Bro“, „mega“, „geil“). Kurze, schlagfertige Zeilen, max. 1–2 Sätze pro Clip. |
 
 ---
@@ -53,7 +53,7 @@ Analysiert: 3 Referenzvideos (Hochformat 9:16, 30 fps, 70–89 s). Einzelbilder 
 4. **Bilder & Animation**: KI-Bildgenerator (z. B. Nano Banana / Midjourney / Flux) → Bild-zu-Video (z. B. Kling / Veo / Hailuo), 3–6 s je Clip.
 5. **Stimmen**: ElevenLabs (ist in dieser Sitzung verbunden), `eleven_multilingual_v2` / `eleven_v3`, eine feste Stimme pro Figur.
 6. **Musik**: Passend zur Variante (siehe oben), Lautstärke wie in den Referenzen.
-7. **Schnitt**: Clips im Takt der Dialogzeilen aneinanderreihen, Stimme + Musik mischen, auf ca. -14 LUFS normalisieren, 1080×1920 exportieren.
+7. **Schnitt** (`python3 tools/build.py assemble <ordner>`): Clips im Takt der Dialogzeilen aneinanderreihen, Stimme + Musik mischen, auf ca. -14 LUFS normalisieren, 1080×1920 exportieren.
 
 ### Vorgeschlagene ElevenLabs-Stimmen (deutsch, Voice Library)
 | Rolle | Stimme (ID) |
