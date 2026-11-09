@@ -1,3 +1,4 @@
 videos/*/out/
 __pycache__/
 videos/*/VORSCHAU_*.mp4
+videos/*/STIMMVERGLEICH.mp4
