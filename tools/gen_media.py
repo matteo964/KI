@@ -54,6 +54,17 @@ def run(model, args, timeout=1800):
     raise TimeoutError(model)
 
 
+def upload(path):
+    """Datei in den fal-Speicher laden (für Videos, die nicht als data-URI gehen). Gibt die öffentliche URL zurück."""
+    p = Path(path)
+    mime = mimetypes.guess_type(p.name)[0] or "application/octet-stream"
+    init = _call("POST", "https://rest.fal.ai/storage/upload/initiate?storage_type=fal-cdn-v3",
+                 {"content_type": mime, "file_name": p.name})
+    req = urllib.request.Request(init["upload_url"], data=p.read_bytes(), method="PUT", headers={"Content-Type": mime})
+    urllib.request.urlopen(req, timeout=300).read()
+    return init["file_url"]
+
+
 def _download(url, out):
     Path(out).parent.mkdir(parents=True, exist_ok=True)
     urllib.request.urlretrieve(url, out)
@@ -78,7 +89,7 @@ def video(prompt, out, start, duration=5, model=VIDEO_MODEL, extra=None):
 
 
 def motion(out, image, ref_video, prompt="", model=MOTION_MODEL, extra=None):
-    args = {"image_url": data_uri(image), "video_url": data_uri(ref_video), "prompt": prompt, **(extra or {})}
+    args = {"image_url": data_uri(image), "video_url": upload(ref_video), "prompt": prompt, **(extra or {})}
     res = run(model, args)
     return _download(res["video"]["url"], out)
 

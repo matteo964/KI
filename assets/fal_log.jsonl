@@ -8,3 +8,5 @@
 {"t": "2026-11-10 09:27:03", "model": "fal-ai/nano-banana-pro", "request_id": "01a1c4c7-dc3a-7a02-aa62-dce896226ab3", "secs": 29}
 {"t": "2026-11-10 09:29:43", "model": "fal-ai/nano-banana-pro/edit", "request_id": "01a1c4ca-4ad5-7393-9bb6-d65821233470", "secs": 29}
 {"t": "2026-11-10 09:34:07", "model": "fal-ai/kling-video/v3/standard/image-to-video", "request_id": "01a1c4cb-0e27-7293-9e43-93eb12b7bec5", "secs": 243}
+{"t": "2026-11-10 09:40:23", "model": "fal-ai/nano-banana-pro/edit", "request_id": "01a1c4d3-fd35-7112-a027-e3967b3ceea2", "secs": 33}
+{"t": "2026-11-10 09:47:00", "model": "fal-ai/kling-video/v3/standard/motion-control", "request_id": "01a1c4d7-4d36-7fb0-972c-d61f19884fcb", "secs": 214}
