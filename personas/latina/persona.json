@@ -2,12 +2,18 @@
   "name": "noch offen (Vorschlag: Valeria)",
   "alter": 23,
   "beschreibung_de": "Schlanke, braun gebrannte Latina, 23 Jahre, Fußballerin eines erfundenen Vereins. Lange, voluminöse dunkelbraune Locken mit helleren Spitzen, überdurchschnittlicher Po und Brust, sportlich-durchtrainiert.",
-  "look_prompt": "a stunning 23-year-old Latina woman, deeply sun-tanned golden-brown skin, slim athletic build with a narrow toned waist, curvy figure with full bust and round wide hips, long voluminous dark brown curly hair with sun-kissed caramel tips, warm brown eyes, natural thick eyebrows, full lips, confident playful smile, small gold hoop earrings",
+  "look_prompt": "an original fictional 23-year-old Latina woman (not resembling any real person), warm golden sun-tanned skin, slim body with a pronounced hourglass figure: very narrow toned waist, noticeably large full bust and a round, prominent, above-average curvy butt and wide hips, long voluminous honey-blonde and caramel wavy curls with darker roots, big warm brown eyes, full glossy lips, soft natural makeup, groomed eyebrows, glowing skin, polished social-media influencer look, small gold hoop earrings",
   "realism_prompt": "photorealistic smartphone photo, shot on iPhone, natural light, real skin texture with pores, no retouching, no beauty filter, candid TikTok look",
   "verein": {
     "name": "CF Aurora (erfunden)",
     "trikot": "fictional football kit with deep burgundy and gold vertical stripes, a simple golden sun crest, no sponsor logos, no real brand logos"
   },
   "format": "eine durchgehende Einstellung, 12-15 s, feste Handykamera auf Hüfthöhe, Tanz/Posing mit Lipsync zum Trend-Sound, Orte: Kabine, Trainingsplatz, Balkon, Strand",
-  "regeln": ["KI-Label auf TikTok setzen", "keine echten Vereine/Marken/Sponsoren", "Gesicht darf keiner realen Person ähneln", "immer bekleidet und sportlich, nicht explizit"]
+  "regeln": [
+    "KI-Label auf TikTok setzen",
+    "keine echten Vereine/Marken/Sponsoren",
+    "Gesicht darf keiner realen Person ähneln",
+    "immer bekleidet und sportlich, nicht explizit"
+  ],
+  "vorlage_hinweis": "Typ nur in Worten beschrieben; keine Bilder realer Personen als Vorlage verwenden."
 }
