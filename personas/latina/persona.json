@@ -1,5 +1,5 @@
 {
-  "name": "noch offen (Vorschlag: Valeria)",
+  "name": "noch offen",
   "alter": 23,
   "beschreibung_de": "Schlanke, braun gebrannte Latina, 23 Jahre, Fußballerin eines erfundenen Vereins. Lange, voluminöse dunkelbraune Locken mit helleren Spitzen, überdurchschnittlicher Po und Brust, sportlich-durchtrainiert.",
   "look_prompt": "an original fictional 23-year-old Latina woman (not resembling any real person), warm golden sun-tanned skin, slim body with a pronounced hourglass figure: very narrow toned waist, noticeably large full bust and a round, prominent, above-average curvy butt and wide hips, long voluminous honey-blonde and caramel wavy curls with darker roots, big warm brown eyes, full glossy lips, soft natural makeup, groomed eyebrows, glowing skin, polished social-media influencer look, small gold hoop earrings",
@@ -15,5 +15,6 @@
     "Gesicht darf keiner realen Person ähneln",
     "immer bekleidet und sportlich, nicht explizit"
   ],
-  "vorlage_hinweis": "Typ nur in Worten beschrieben; keine Bilder realer Personen als Vorlage verwenden."
+  "vorlage_hinweis": "Typ nur in Worten beschrieben; keine Bilder realer Personen als Vorlage verwenden.",
+  "gesicht_referenz": "personas/latina/kandidat_v2_3.png"
 }

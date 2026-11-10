@@ -6,3 +6,5 @@
 {"t": "2026-11-10 09:27:03", "model": "fal-ai/nano-banana-pro", "request_id": "01a1c4c7-dc4f-7211-aeb8-2dc9c958abd8", "secs": 29}
 {"t": "2026-11-10 09:27:03", "model": "fal-ai/nano-banana-pro", "request_id": "01a1c4c7-dbf9-7a70-bca9-59e482a2f25f", "secs": 29}
 {"t": "2026-11-10 09:27:03", "model": "fal-ai/nano-banana-pro", "request_id": "01a1c4c7-dc3a-7a02-aa62-dce896226ab3", "secs": 29}
+{"t": "2026-11-10 09:29:43", "model": "fal-ai/nano-banana-pro/edit", "request_id": "01a1c4ca-4ad5-7393-9bb6-d65821233470", "secs": 29}
+{"t": "2026-11-10 09:34:07", "model": "fal-ai/kling-video/v3/standard/image-to-video", "request_id": "01a1c4cb-0e27-7293-9e43-93eb12b7bec5", "secs": 243}
