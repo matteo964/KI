@@ -100,3 +100,15 @@ if __name__ == "__main__":
         print(image(prompt, out, refs))
     else:
         print(video(prompt, out, refs[0]))
+
+
+SEEDANCE_REF_MODEL = "bytedance/seedance-2.0/reference-to-video"
+
+
+def ref_video(prompt, out, images=(), videos=(), duration="auto", resolution="720p", aspect="9:16",
+              model=SEEDANCE_REF_MODEL):
+    """Seedance 2.0: Video aus Referenzbildern (@Image1 …) und Referenzvideos (@Video1 …)."""
+    args = {"prompt": prompt, "image_urls": [upload(i) for i in images], "video_urls": [upload(v) for v in videos],
+            "duration": str(duration), "resolution": resolution, "aspect_ratio": aspect, "generate_audio": False}
+    res = run(model, args)
+    return _download(res["video"]["url"], out)
