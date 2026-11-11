@@ -38,6 +38,10 @@ def load(d):
                 s[k] = {**v, **s[k]}
             else:
                 s.setdefault(k, v)
+    for sh in s.get("shots", []):  # Einstellung = ein Clip für mehrere Zeilen
+        if sh.get("setup"):
+            for k, v in s["setups"][sh["setup"]].items():
+                sh.setdefault(k, v)
     return s
 
 
@@ -85,6 +89,20 @@ def cmd_docs(d):
             f"cinematic, keep characters consistent, no text changes except the forehead display.\n```\n")
         t += dur
     chars = sum(len(sh["text"]) for sh in s["shots"])
+    if s.get("setups"):
+        need = {}
+        for sh in s["shots"]:
+            need[sh["setup"]] = need.get(sh["setup"], 0) + estimate(sh["text"]) + GAP
+        rows = []
+        for su, cfg in s["setups"].items():
+            lines = [f"- **{s['characters'][sh['speaker']]['name']}:** „{sh['text']}“" for sh in s["shots"] if sh["setup"] == su]
+            secs = min(15, max(3, round(need.get(su, 3) + 0.5)))
+            fake = dict(cfg)
+            rows.append(f"### {su} · Clip-Länge **{secs} s** · {cfg['loc']} · {cfg['camera']}\n" + "\n".join(lines) +
+                        f"\n\n**Bild-Prompt:**\n```\n{image_prompt(s, fake)}\n```\n**Animations-Prompt:**\n```\n{cfg['motion']}. "
+                        f"The characters talk in turns with natural mouth movement, static camera, cinematic, keep characters consistent.\n```\n")
+        total = sum(min(15, max(3, round(v + 0.5))) for v in need.values())
+        shots = [f"**{len(s['setups'])} Einstellungen, zusammen ca. {total} s Video.** Datei pro Einstellung: `clips/S01.mp4` …\n"] + rows
     refs = "\n".join(
         f"**{c['name']}**\n```\n{s['style']}. Character reference sheet, full body front view and close-up portrait, "
         f"neutral dark studio background: {c['prompt'].replace('{display}', c.get('display', ''))}.\n```\n"
@@ -158,8 +176,13 @@ def cmd_assemble(d):
     tmp.mkdir(parents=True, exist_ok=True)
     vf = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},format=yuv420p"
     segs, missing = [], []
+    setup_pos, last_setup = 0.0, None
     for i, sh in enumerate(s["shots"]):
-        raw, clip = d / "voices" / f"{nr(i)}.mp3", d / "clips" / f"{nr(i)}.mp4"
+        su = sh.get("setup")
+        if su != last_setup:
+            setup_pos, last_setup = 0.0, su
+        raw = d / "voices" / f"{nr(i)}.mp3"
+        clip = d / "clips" / (f"{su}.mp4" if su else f"{nr(i)}.mp4")
         voice = tmp / f"{nr(i)}_vo.wav"
         if raw.exists():  # Stille an den Enden kappen + Tempo anpassen (Tonhöhe bleibt)
             trim = "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.03"
@@ -171,13 +194,13 @@ def cmd_assemble(d):
         if i == len(s["shots"]) - 1 and s.get("end_text"):
             dur += 1.2  # Cliffhanger kurz stehen lassen (wie Referenz 5)
         if clip.exists():
-            vin = ["-stream_loop", "-1", "-i", str(clip)]
+            vin = ["-stream_loop", "-1", "-ss", f"{setup_pos:.3f}", "-i", str(clip)]
             vchain = vf
         else:
-            missing.append(nr(i))
+            missing.append(su or nr(i))
             card = tmp / f"{nr(i)}.txt"
             who = s["characters"][sh["speaker"]]["name"]
-            card.write_text(f"SHOT {nr(i)}  ·  {sh['loc']}\n\n{who}:\n\n" + "\n".join(textwrap.wrap(sh["text"], 22)))
+            card.write_text(f"{su + ' · ' if su else ''}SHOT {nr(i)}  ·  {sh['loc']}\n\n{who}:\n\n" + "\n".join(textwrap.wrap(sh["text"], 22)))
             vin = ["-f", "lavfi", "-i", f"color=c=0x1a1410:s={W}x{H}:r={FPS}"]
             vchain = (f"drawtext=fontfile={FONT}:textfile={card}:fontcolor=white:fontsize=64:line_spacing=18:"
                       f"x=(w-text_w)/2:y=(h-text_h)/2,format=yuv420p")
@@ -200,6 +223,8 @@ def cmd_assemble(d):
              f"[0:v]{vchain}[vo];{achain}", "-map", "[vo]", "-map", "[a]", "-t", f"{dur:.3f}",
              "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", "-b:a", "192k", "-ar", "44100", str(out)])
         segs.append(out)
+        setup_pos += dur
+    missing = list(dict.fromkeys(missing))
     lst = tmp / "list.txt"
     lst.write_text("".join(f"file '{p.resolve()}'\n" for p in segs))
     joined = tmp / "joined.mp4"

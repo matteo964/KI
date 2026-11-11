@@ -1,0 +1,226 @@
+{
+ "title": "Die Kellnerin – Teil 2",
+ "series": "../serie.json",
+ "setups": {
+  "S01": {
+   "loc": "BUERO_N",
+   "cast": [
+    "VIKTORIA",
+    "NORA"
+   ],
+   "camera": "wide shot",
+   "action": "Viktoria storms into the owner's office; Nora sits calmly behind the huge desk, still in her waitress apron",
+   "motion": "Viktoria bursts through the door, Nora does not look up at first"
+  },
+  "S02": {
+   "loc": "BUERO_N",
+   "cast": [
+    "VIKTORIA"
+   ],
+   "camera": "close-up",
+   "action": "Viktoria furious and disbelieving",
+   "motion": "her eyes narrow"
+  },
+  "S03": {
+   "loc": "BUERO_N",
+   "cast": [
+    "NORA"
+   ],
+   "camera": "close-up",
+   "action": "Nora calm, hands folded",
+   "motion": "she leans back slowly"
+  },
+  "S04": {
+   "loc": "BUERO_N",
+   "cast": [
+    "NORA",
+    "VIKTORIA"
+   ],
+   "camera": "two-shot over the desk",
+   "action": "Nora slides an old photo across the desk showing a young mango man and young Viktoria in front of a hotel",
+   "motion": "the photo slides across the desk"
+  },
+  "S05": {
+   "loc": "AUFZUG",
+   "cast": [
+    "VIKTORIA"
+   ],
+   "camera": "medium shot",
+   "action": "Viktoria alone in the golden elevator on her phone",
+   "motion": "she presses the phone to her ear, jaw tight"
+  },
+  "S06": {
+   "loc": "AUTO",
+   "cast": [
+    "DURIAN"
+   ],
+   "camera": "close-up",
+   "action": "the spiky durian thug in a dark car on the phone, grinning",
+   "motion": "he grins and hangs up"
+  },
+  "S07": {
+   "loc": "DACH",
+   "cast": [
+    "MAX",
+    "NORA"
+   ],
+   "camera": "two-shot",
+   "action": "Max approaches Nora at the glass railing on the night rooftop",
+   "motion": "he walks up hesitantly, hands in pockets"
+  },
+  "S08": {
+   "loc": "DACH",
+   "cast": [
+    "MAX",
+    "NORA"
+   ],
+   "camera": "close two-shot",
+   "action": "Max and Nora face each other, city lights behind",
+   "motion": "slow orbit around them"
+  },
+  "S09": {
+   "loc": "FLUR",
+   "cast": [
+    "MAX"
+   ],
+   "camera": "medium shot",
+   "action": "Max walking down the dark corridor toward his mother's half-open office door",
+   "motion": "he slows down and leans toward the door"
+  },
+  "S10": {
+   "loc": "BUERO_V",
+   "cast": [
+    "VIKTORIA"
+   ],
+   "camera": "medium shot from behind",
+   "action": "Viktoria on the phone with her back to the door",
+   "motion": "she turns her head slightly"
+  },
+  "S11": {
+   "loc": "BUERO_V",
+   "cast": [
+    "VIKTORIA"
+   ],
+   "camera": "extreme close-up",
+   "action": "Viktoria's cold eyes",
+   "motion": "slow push-in"
+  },
+  "S12": {
+   "loc": "FLUR",
+   "cast": [
+    "MAX"
+   ],
+   "camera": "close-up",
+   "action": "Max behind the door, shocked",
+   "motion": "his eyes widen, he steps back"
+  }
+ },
+ "shots": [
+  {
+   "setup": "S01",
+   "speaker": "NORA",
+   "text": "Guten Abend, Viktoria."
+  },
+  {
+   "setup": "S01",
+   "speaker": "VIKTORIA",
+   "text": "Du? Du hast mein Hotel gekauft?"
+  },
+  {
+   "setup": "S01",
+   "speaker": "NORA",
+   "text": "Dein Hotel war es nie."
+  },
+  {
+   "setup": "S02",
+   "speaker": "VIKTORIA",
+   "text": "Warum arbeitest du dann als Kellnerin?"
+  },
+  {
+   "setup": "S03",
+   "speaker": "NORA",
+   "text": "Ich wollte sehen, wie ihr eure Leute behandelt."
+  },
+  {
+   "setup": "S04",
+   "speaker": "NORA",
+   "text": "Erinnerst du dich an ihn?"
+  },
+  {
+   "setup": "S04",
+   "speaker": "VIKTORIA",
+   "text": "Dein Vater war ein Träumer."
+  },
+  {
+   "setup": "S04",
+   "speaker": "NORA",
+   "text": "Mein Vater war dein Partner. Bis du ihn betrogen hast."
+  },
+  {
+   "setup": "S05",
+   "speaker": "VIKTORIA",
+   "text": "Johanns Tochter ist zurück."
+  },
+  {
+   "setup": "S05",
+   "speaker": "DURIAN",
+   "text": "Und was soll ich tun?"
+  },
+  {
+   "setup": "S05",
+   "speaker": "VIKTORIA",
+   "text": "Sorg dafür, dass sie nie erfährt, was auf der Yacht passiert ist."
+  },
+  {
+   "setup": "S06",
+   "speaker": "DURIAN",
+   "text": "Wird erledigt."
+  },
+  {
+   "setup": "S07",
+   "speaker": "MAX",
+   "text": "Das mit dem Champagner… es tut mir leid."
+  },
+  {
+   "setup": "S07",
+   "speaker": "NORA",
+   "text": "Das sagst du nur, weil mir jetzt das Hotel gehört."
+  },
+  {
+   "setup": "S07",
+   "speaker": "MAX",
+   "text": "Nein. Weil ich mich seitdem schäme."
+  },
+  {
+   "setup": "S08",
+   "speaker": "MAX",
+   "text": "Warum hasst meine Mutter dich so?"
+  },
+  {
+   "setup": "S08",
+   "speaker": "NORA",
+   "text": "Frag sie, was vor zwanzig Jahren auf der Yacht passiert ist."
+  },
+  {
+   "setup": "S09",
+   "speaker": "MAX",
+   "text": "Mama? Bist du noch wach?"
+  },
+  {
+   "setup": "S10",
+   "speaker": "VIKTORIA",
+   "text": "Wenn sie weitergräbt, muss sie verschwinden."
+  },
+  {
+   "setup": "S11",
+   "speaker": "VIKTORIA",
+   "text": "Genau wie ihr Vater."
+  },
+  {
+   "setup": "S12",
+   "speaker": "MAX",
+   "text": "Genau wie… ihr Vater?"
+  }
+ ],
+ "end_text": "Teil 3…"
+}

@@ -1,0 +1,234 @@
+{
+ "title": "Die Kellnerin – Teil 1",
+ "series": "../serie.json",
+ "setups": {
+  "S01": {
+   "loc": "GALA",
+   "cast": [
+    "MAX",
+    "NORA"
+   ],
+   "camera": "medium two-shot",
+   "action": "Max pours his champagne over Nora's serving tray and apron, guests around them laugh and film with phones",
+   "motion": "Max tips his glass, champagne splashes, Nora stays completely still"
+  },
+  "S02": {
+   "loc": "GALA",
+   "cast": [
+    "NORA"
+   ],
+   "camera": "close-up",
+   "action": "Nora with champagne dripping from her apron, calm cold stare",
+   "motion": "she slowly wipes her hand on the apron and looks him in the eye"
+  },
+  "S03": {
+   "loc": "GALA",
+   "cast": [
+    "MAX"
+   ],
+   "camera": "medium shot",
+   "action": "Max laughing to the crowd while Nora walks away in the background; through a tall window an old gardener watches",
+   "motion": "Max spreads his arms and laughs, Nora walks off"
+  },
+  "S04": {
+   "loc": "BAR",
+   "cast": [
+    "MAX",
+    "VIKTORIA"
+   ],
+   "camera": "two-shot",
+   "action": "Max complaining to his mother Viktoria at the bar",
+   "motion": "Viktoria slowly sets down her glass"
+  },
+  "S05": {
+   "loc": "FLUR",
+   "cast": [
+    "VIKTORIA",
+    "KIWI"
+   ],
+   "camera": "two-shot",
+   "action": "Viktoria towering over the nervous hotel director in the corridor",
+   "motion": "the director wipes sweat from his forehead"
+  },
+  "S06": {
+   "loc": "FLUR",
+   "cast": [
+    "VIKTORIA"
+   ],
+   "camera": "close-up",
+   "action": "Viktoria on her phone, cold eyes",
+   "motion": "she speaks into the phone and hangs up"
+  },
+  "S07": {
+   "loc": "FLUR",
+   "cast": [
+    "BRUTUS",
+    "NORA"
+   ],
+   "camera": "two-shot",
+   "action": "the huge watermelon security chief stops Nora in the corridor, then recognizes her and steps back",
+   "motion": "Brutus reaches for her arm, freezes, then steps back and lowers his head"
+  },
+  "S08": {
+   "loc": "FLUR",
+   "cast": [
+    "MAX"
+   ],
+   "camera": "medium shot",
+   "action": "Max watching from the end of the corridor, confused",
+   "motion": "Max frowns and throws up his hands"
+  },
+  "S09": {
+   "loc": "GARTEN",
+   "cast": [
+    "JOHANN"
+   ],
+   "camera": "close-up through the window",
+   "action": "the old gardener in the night garden watching Nora through the window, a faint smile",
+   "motion": "he lowers his straw hat slightly"
+  },
+  "S10": {
+   "loc": "BUERO_V",
+   "cast": [
+    "VIKTORIA",
+    "PFLAUME"
+   ],
+   "camera": "two-shot",
+   "action": "Viktoria at her desk giving orders to the plum detective",
+   "motion": "Viktoria slides a photo of Nora across the desk"
+  },
+  "S11": {
+   "loc": "BUERO_V",
+   "cast": [
+    "PFLAUME",
+    "VIKTORIA"
+   ],
+   "camera": "medium shot",
+   "action": "the detective returns and places a folder stamped GEHEIM on the desk",
+   "motion": "she drops the folder on the desk"
+  },
+  "S12": {
+   "loc": "BUERO_V",
+   "cast": [
+    "VIKTORIA"
+   ],
+   "camera": "extreme close-up",
+   "action": "Viktoria reading the file, her champagne glass slipping from her gloved hand",
+   "motion": "slow push-in, the glass falls and shatters"
+  }
+ },
+ "shots": [
+  {
+   "setup": "S01",
+   "speaker": "MAX",
+   "text": "Du bist hier, um zu servieren. Nicht um zu atmen."
+  },
+  {
+   "setup": "S01",
+   "speaker": "NORA",
+   "text": "Das war ein teurer Fehler."
+  },
+  {
+   "setup": "S01",
+   "speaker": "MAX",
+   "text": "Teuer? Ich könnte dieses Hotel kaufen."
+  },
+  {
+   "setup": "S02",
+   "speaker": "NORA",
+   "text": "Könntest du nicht."
+  },
+  {
+   "setup": "S03",
+   "speaker": "MAX",
+   "text": "Habt ihr das gehört? Die Kellnerin droht mir!"
+  },
+  {
+   "setup": "S04",
+   "speaker": "MAX",
+   "text": "Mama, die Kellnerin hat mich vor allen blamiert."
+  },
+  {
+   "setup": "S04",
+   "speaker": "VIKTORIA",
+   "text": "Niemand blamiert einen Drachenstein."
+  },
+  {
+   "setup": "S05",
+   "speaker": "VIKTORIA",
+   "text": "Feuern Sie die Mango. Sofort."
+  },
+  {
+   "setup": "S05",
+   "speaker": "KIWI",
+   "text": "Das… das geht nicht, Frau von Drachenstein."
+  },
+  {
+   "setup": "S05",
+   "speaker": "VIKTORIA",
+   "text": "Ich buche hier seit zwanzig Jahren. Alles geht."
+  },
+  {
+   "setup": "S05",
+   "speaker": "KIWI",
+   "text": "Sie steht auf keiner meiner Listen."
+  },
+  {
+   "setup": "S06",
+   "speaker": "VIKTORIA",
+   "text": "Brutus. Begleite die Kellnerin hinaus."
+  },
+  {
+   "setup": "S07",
+   "speaker": "BRUTUS",
+   "text": "Du kommst mit."
+  },
+  {
+   "setup": "S07",
+   "speaker": "NORA",
+   "text": "Guten Abend, Brutus."
+  },
+  {
+   "setup": "S07",
+   "speaker": "BRUTUS",
+   "text": "…Entschuldigung. Ich wusste nicht, dass Sie es sind."
+  },
+  {
+   "setup": "S08",
+   "speaker": "MAX",
+   "text": "Warum entschuldigt der sich bei einer Kellnerin?!"
+  },
+  {
+   "setup": "S09",
+   "speaker": "JOHANN",
+   "text": "Sie hat keine Angst. Gut so.",
+   "tag": "[softly]"
+  },
+  {
+   "setup": "S10",
+   "speaker": "VIKTORIA",
+   "text": "Finden Sie alles über diese Kellnerin heraus."
+  },
+  {
+   "setup": "S10",
+   "speaker": "PFLAUME",
+   "text": "Name, Familie, Geheimnisse?"
+  },
+  {
+   "setup": "S10",
+   "speaker": "VIKTORIA",
+   "text": "Alles."
+  },
+  {
+   "setup": "S11",
+   "speaker": "PFLAUME",
+   "text": "Frau von Drachenstein… Sie sollten sich setzen."
+  },
+  {
+   "setup": "S12",
+   "speaker": "PFLAUME",
+   "text": "Die Kellnerin ist… die neue Besitzerin dieses Hotels."
+  }
+ ],
+ "end_text": "Teil 2…"
+}

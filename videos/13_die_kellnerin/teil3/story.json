@@ -1,0 +1,235 @@
+{
+ "title": "Die Kellnerin – Teil 3",
+ "series": "../serie.json",
+ "setups": {
+  "S01": {
+   "loc": "BUERO_V",
+   "cast": [
+    "MAX",
+    "VIKTORIA"
+   ],
+   "camera": "two-shot",
+   "action": "Max confronting his mother at her desk",
+   "motion": "Max slams his hand on the desk"
+  },
+  "S02": {
+   "loc": "BUERO_V",
+   "cast": [
+    "VIKTORIA"
+   ],
+   "camera": "close-up",
+   "action": "Viktoria cold and unmoved",
+   "motion": "she raises her chin"
+  },
+  "S03": {
+   "loc": "GARAGE",
+   "cast": [
+    "DURIAN",
+    "NORA"
+   ],
+   "camera": "wide shot",
+   "action": "the durian thug corners Nora next to her black car in the dim garage",
+   "motion": "he steps out of the shadows toward her"
+  },
+  "S04": {
+   "loc": "GARAGE",
+   "cast": [
+    "JOHANN",
+    "DURIAN",
+    "NORA"
+   ],
+   "camera": "medium shot",
+   "action": "the old gardener steps calmly between Nora and the thug",
+   "motion": "Johann walks in and stands in front of Nora"
+  },
+  "S05": {
+   "loc": "GARAGE",
+   "cast": [
+    "JOHANN",
+    "DURIAN"
+   ],
+   "camera": "two-shot",
+   "action": "Johann takes off his straw hat, the thug stumbles back in shock",
+   "motion": "the hat comes off, Durian backs away and runs"
+  },
+  "S06": {
+   "loc": "GARAGE",
+   "cast": [
+    "NORA",
+    "JOHANN"
+   ],
+   "camera": "close two-shot",
+   "action": "Nora recognizing her father, tears in her eyes",
+   "motion": "she steps closer, trembling"
+  },
+  "S07": {
+   "loc": "GARAGE",
+   "cast": [
+    "JOHANN"
+   ],
+   "camera": "close-up",
+   "action": "Johann with a warm proud smile, a tear on his cheek",
+   "motion": "he gently touches her face"
+  },
+  "S08": {
+   "loc": "BUEHNE",
+   "cast": [
+    "VIKTORIA"
+   ],
+   "camera": "low-angle medium shot",
+   "action": "Viktoria at the microphone on stage in front of investors",
+   "motion": "she points accusingly into the crowd"
+  },
+  "S09": {
+   "loc": "BUEHNE",
+   "cast": [
+    "MAX",
+    "VIKTORIA"
+   ],
+   "camera": "two-shot",
+   "action": "Max walks onto the stage holding up his phone toward the microphone",
+   "motion": "he raises the phone, the room goes silent"
+  },
+  "S10": {
+   "loc": "BUEHNE",
+   "cast": [
+    "JOHANN",
+    "VIKTORIA"
+   ],
+   "camera": "wide shot",
+   "action": "the ballroom doors open, Johann walks in, everyone turns",
+   "motion": "the doors swing open, guests turn around"
+  },
+  "S11": {
+   "loc": "BUEHNE",
+   "cast": [
+    "VIKTORIA",
+    "NORA"
+   ],
+   "camera": "medium shot",
+   "action": "police lead Viktoria away in handcuffs past Nora",
+   "motion": "Viktoria struggles, Nora watches calmly"
+  },
+  "S12": {
+   "loc": "GALA",
+   "cast": [
+    "MAX_KELLNER"
+   ],
+   "camera": "medium shot",
+   "action": "epilogue: Max working as a waiter, an arrogant guest has just spilled a drink on his apron; Nora and Johann smile in the background",
+   "motion": "Max wipes his apron calmly and smiles"
+  }
+ },
+ "shots": [
+  {
+   "setup": "S01",
+   "speaker": "MAX",
+   "text": "Was ist mit Noras Vater passiert?"
+  },
+  {
+   "setup": "S01",
+   "speaker": "VIKTORIA",
+   "text": "Ein Bootsunfall. Vor zwanzig Jahren."
+  },
+  {
+   "setup": "S01",
+   "speaker": "MAX",
+   "text": "Ich hab dich gehört, Mama."
+  },
+  {
+   "setup": "S02",
+   "speaker": "VIKTORIA",
+   "text": "Dann weißt du ja, auf welcher Seite du stehst."
+  },
+  {
+   "setup": "S03",
+   "speaker": "DURIAN",
+   "text": "Spät noch unterwegs, Frau Besitzerin?"
+  },
+  {
+   "setup": "S03",
+   "speaker": "NORA",
+   "text": "Viktoria schickt also dich."
+  },
+  {
+   "setup": "S04",
+   "speaker": "JOHANN",
+   "text": "Lass sie in Ruhe.",
+   "tag": "[calm]"
+  },
+  {
+   "setup": "S04",
+   "speaker": "DURIAN",
+   "text": "Verschwinde, Opa. Das ist nicht dein Garten."
+  },
+  {
+   "setup": "S04",
+   "speaker": "JOHANN",
+   "text": "Doch. Alles hier war mal mein Garten.",
+   "tag": "[calm]"
+  },
+  {
+   "setup": "S05",
+   "speaker": "DURIAN",
+   "text": "Das… das kann nicht sein. Du bist tot!"
+  },
+  {
+   "setup": "S06",
+   "speaker": "NORA",
+   "text": "Papa…? Du warst die ganze Zeit hier?"
+  },
+  {
+   "setup": "S06",
+   "speaker": "JOHANN",
+   "text": "Jeden Tag. Ich musste aufpassen, dass sie dich nicht findet.",
+   "tag": "[softly]"
+  },
+  {
+   "setup": "S07",
+   "speaker": "JOHANN",
+   "text": "Die Mango fällt eben nicht weit vom Stamm.",
+   "tag": "[softly]"
+  },
+  {
+   "setup": "S08",
+   "speaker": "VIKTORIA",
+   "text": "Meine Damen und Herren, diese Kellnerin ist eine Betrügerin!"
+  },
+  {
+   "setup": "S09",
+   "speaker": "MAX",
+   "text": "Nein, Mama. Hört euch das an."
+  },
+  {
+   "setup": "S09",
+   "speaker": "VIKTORIA",
+   "text": "Wenn sie weitergräbt, muss sie verschwinden. Genau wie ihr Vater."
+  },
+  {
+   "setup": "S10",
+   "speaker": "JOHANN",
+   "text": "Hallo, Viktoria. Lange nicht gesehen.",
+   "tag": "[calm]"
+  },
+  {
+   "setup": "S10",
+   "speaker": "VIKTORIA",
+   "text": "Johann…?!"
+  },
+  {
+   "setup": "S11",
+   "speaker": "VIKTORIA",
+   "text": "Das wirst du bereuen, Kellnerin!"
+  },
+  {
+   "setup": "S11",
+   "speaker": "NORA",
+   "text": "Ich bin keine Kellnerin. Aber ich serviere gern."
+  },
+  {
+   "setup": "S12",
+   "speaker": "MAX",
+   "text": "Das war ein teurer Fehler."
+  }
+ ]
+}

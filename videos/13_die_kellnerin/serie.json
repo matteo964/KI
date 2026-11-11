@@ -1,0 +1,119 @@
+{
+ "series_title": "Die Kellnerin",
+ "style": "Stylized 3D animated feature film still in the style of a modern Pixar/Illumination movie, smooth stylized shapes, big expressive cartoon eyes, clean appealing character design, soft cinematic lighting with warm highlights, dark luxury color palette (black, burgundy, gold), shallow depth of field, anthropomorphic fruit-headed characters with realistic human bodies, vertical 9:16 composition, no text",
+ "voice_tempo": 1.1,
+ "music": {
+  "track": "Batida Funk Medley (TikTok-Sound), ab 0:11",
+  "start_s": 11,
+  "gain_db": -5,
+  "description": "Brazilian funk beat, no vocals"
+ },
+ "characters": {
+  "NORA": {
+   "name": "Nora (Mango, Kellnerin)",
+   "prompt": "a calm, confident young woman whose entire head is a glossy golden-orange mango with a small green leaf on top, sharp intelligent eyes, composed expression, wearing a black waitress uniform with a white apron and a name tag",
+   "voice": {
+    "library": "TGvCjJzuyubkDwINImMA",
+    "premade": "EXAVITQu4vr4xnSDxMaL",
+    "model": "eleven_multilingual_v2",
+    "name": "Elli"
+   },
+   "voice_note": "ruhig, kühl, wenige Worte"
+  },
+  "MAX": {
+   "name": "Max von Drachenstein (junge Drachenfrucht)",
+   "prompt": "an arrogant handsome young man around twenty whose entire head is a vivid pink dragon fruit with green-tipped scales like styled hair, smug eyes, wearing a burgundy velvet tuxedo jacket, black shirt, gold chain",
+   "voice": {
+    "library": "h1IssowVS2h4nL5ZbkkK",
+    "premade": "EXAVITQu4vr4xnSDxMaL",
+    "model": "eleven_multilingual_v2",
+    "name": "The Fox"
+   },
+   "voice_note": "arrogant, später unsicher"
+  },
+  "MAX_KELLNER": {
+   "name": "Max als Kellner (Epilog, Stimme wie Max)",
+   "prompt": "a young man whose entire head is a vivid pink dragon fruit with green-tipped scales, humble calm smile, wearing a black waiter uniform with a white apron",
+   "voice": null
+  },
+  "VIKTORIA": {
+   "name": "Viktoria von Drachenstein (große Drachenfrucht)",
+   "prompt": "an elegant ice-cold woman in her fifties whose entire head is a large deep-magenta dragon fruit with long sweeping green-gold scales like a regal hairstyle, cold narrow eyes, wearing a black floor-length evening gown, diamond necklace, long gloves",
+   "voice": {
+    "library": "coPfQIqaxowKv5u2s2bV",
+    "premade": "EXAVITQu4vr4xnSDxMaL",
+    "model": "eleven_multilingual_v2",
+    "name": "Johanna"
+   },
+   "voice_note": "eiskalt, kontrolliert"
+  },
+  "KIWI": {
+   "name": "Herr Kiwi (Hoteldirektor)",
+   "prompt": "a nervous slim middle-aged man whose entire head is a fuzzy brown kiwi fruit, round glasses, sweating, wearing a grey hotel manager suit with a gold name badge",
+   "voice": {
+    "library": "iQgleKwj2ZKxy6MvS4xe",
+    "premade": "EXAVITQu4vr4xnSDxMaL",
+    "model": "eleven_multilingual_v2",
+    "name": "John"
+   },
+   "voice_note": "nervös"
+  },
+  "BRUTUS": {
+   "name": "Brutus (Wassermelone, Security)",
+   "prompt": "a huge muscular security chief whose entire head is a round green striped watermelon, stern face, earpiece, wearing a tight black security suit",
+   "voice": {
+    "library": "RjLziZNN3CXUGWjzW67v",
+    "premade": "EXAVITQu4vr4xnSDxMaL",
+    "model": "eleven_multilingual_v2",
+    "name": "Willi"
+   },
+   "voice_note": "tief, erst hart, dann respektvoll"
+  },
+  "PFLAUME": {
+   "name": "Detektivin Pflaume",
+   "prompt": "a sharp middle-aged female private investigator whose entire head is a dark purple plum, clever narrow eyes, wearing a long dark trench coat, holding a brown folder stamped GEHEIM",
+   "voice": {
+    "library": "KXxZd16DiBqt82nbarJx",
+    "premade": "EXAVITQu4vr4xnSDxMaL",
+    "model": "eleven_multilingual_v2",
+    "name": "Lucy Fennek"
+   },
+   "voice_note": "sachlich"
+  },
+  "JOHANN": {
+   "name": "Johann (alte Mango, Gärtner)",
+   "prompt": "a calm old man in his sixties whose entire head is a slightly wrinkled ripe mango with a few brown spots and a dry leaf on top, wise kind eyes, wearing a worn green gardener overall, a straw hat, gardening gloves",
+   "voice": {
+    "library": "he4iF6V8tdCa0FGloXxE",
+    "premade": "EXAVITQu4vr4xnSDxMaL",
+    "model": "eleven_v3",
+    "name": "Heiner"
+   },
+   "voice_note": "ruhig, tief"
+  },
+  "DURIAN": {
+   "name": "Der Durian (Schläger)",
+   "prompt": "a menacing bulky man whose entire head is a spiky green-yellow durian fruit, scar, mean grin, wearing a black leather jacket",
+   "voice": {
+    "library": "DQ4rTqXxHr077oQgsA9D",
+    "premade": "EXAVITQu4vr4xnSDxMaL",
+    "model": "eleven_multilingual_v2",
+    "name": "DiMario"
+   },
+   "voice_note": "bedrohlich-großspurig"
+  }
+ },
+ "locations": {
+  "GALA": "glamorous grand hotel ballroom during a black-tie gala at night, crystal chandeliers, gold and burgundy decor, elegant guests with champagne",
+  "FLUR": "luxurious grand hotel corridor with marble floor, gold wall lamps and burgundy carpet",
+  "BAR": "elegant hotel bar with dark wood, backlit bottles and gold accents",
+  "BUERO_V": "dark luxurious hotel suite office of Viktoria with a large desk, city view at night",
+  "BUERO_N": "the hotel owner's top-floor office with floor-to-ceiling windows over the night skyline, a huge desk",
+  "GARTEN": "the hotel garden at night seen through a tall window, lanterns and hedges",
+  "DACH": "hotel rooftop terrace at night with glass railing and glittering city lights",
+  "AUFZUG": "golden luxury hotel elevator interior with mirrors",
+  "AUTO": "inside a dark car at night, city lights through the window",
+  "GARAGE": "dim underground hotel parking garage with concrete pillars and a black luxury car",
+  "BUEHNE": "the grand hotel ballroom stage with a microphone stand, investors seated at round tables, spotlight"
+ }
+}
