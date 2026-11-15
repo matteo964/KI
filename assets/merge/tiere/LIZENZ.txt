@@ -1,0 +1,1 @@
+Grafiken: Noto Emoji (Google), Lizenz Apache-2.0, über das npm-Paket @iconify-json/noto 1.2.4.
